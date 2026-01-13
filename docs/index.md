@@ -26,7 +26,8 @@ Dr. Nichols<br>
 
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
-| Jacob Alger            | [Jacob-Alger-314.Github](https://jacob-alger.github.io/Jacob-Alger-314.github.io/) |
+| Jacob Alger            | [Jacob-Alger.Github](https://jacob-alger.github.io/Jacob-Alger-314.github.io/) |
 | Name #2                | link |
 | Name #3                | link |
 | Name #4                | link |
+| Name #5                | link |
