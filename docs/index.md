@@ -27,7 +27,7 @@ Dr. Nichols<br>
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
 | Jacob Alger            | [Jacob-Alger.Github](https://jacob-alger.github.io/Jacob-Alger-314.github.io/) |
-| Name #2                | link |
+| Caleb Yuen             | [Caleb-Yuen.Github](https://cyuen808.github.io/cyuen808.EGR314.github.io/) |
 | Name #3                | link |
 | Name #4                | link |
 | Name #5                | link |
