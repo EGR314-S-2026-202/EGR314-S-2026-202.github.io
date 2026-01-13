@@ -5,13 +5,13 @@ tags:
 - tag2
 ---
 <center>
-<font size="8">Project Name<br>
-<font size="5">Team ###<br>
-**Submission: month, DD, YYYY**<br>
-Spring - 202x<br>
+<font size="8">Exploration Device Project<br>
+<font size="5">Team 202<br>
+**Submission: January 18, 2026**<br>
+Spring - 2026<br>
 <font size="4">Arizona State University<br>
 **EGR 314**<br>
-Professor Name<br>
+Dr. Nichols<br>
   
 
 </center>
