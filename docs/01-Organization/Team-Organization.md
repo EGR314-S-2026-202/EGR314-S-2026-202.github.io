@@ -23,15 +23,7 @@ Team 202 is committed to designing and building high-quality products that excee
 | Isaiah Johnston        |  |
 | Cristopher Gutierrez   |  |
 
-\\ Describe process to determine which member will fulfill each role and address questions:
-
-\\ How often will you change project roles?
-\\ How will you decide who is assigned to each role?
-\\ How will team members help one another meet their responsibilities?
-\\ How will you identify and respond to situations in which the team must adjust roles and responsibilities?
-\\ How will you track the team activities and milestones?
-\\ How will you assign technical responsibilities to the team members?
 
 ## Other Organizational Information
 
-Other details about the organization structure of the team can be reviewed in ["Appendix: Team Organization Information."](https://embedded-systems-design.github.io/template_report/Appendix/01-Organization-Information/Append-Organization/)
+Other details about the organization structure of the team can be reviewed in ["Appendix: Team Organization Information."](https://egr314-s-2026-202.github.io/Appendix/01-Organization-Information/Append-Organization/)
