@@ -32,17 +32,6 @@ Team 202 is committed to designing and building high-quality products that excee
 \\ How will you track the team activities and milestones?
 \\ How will you assign technical responsibilities to the team members?
 
-## Roles & Responsibilities
-
-| **Team Member**        |**First Choice Communication** |**Second Choice Communication** |**Third Choice Communication** |
-| ---------------------- | -----------------------|---------------------- |---------------------- |
-| Jacob Alger |           Texting           |           Phone call            |                Email           |
-| Caleb Yuen |            Texting           |           Phone call            |                Email           |
-| Aaron Kiem |            Texting           |           Phone call            |                Email           |
-| Isaiah Johnston |       Texting           |           Phone call            |                Email           |
-| Cristopher Gutierrez |  Texting           |           Phone call            |                Email           |
-
-
 ## Other Organizational Information
 
 Other details about the organization structure of the team can be reviewed in ["Appendix: Team Organization Information."](https://embedded-systems-design.github.io/template_report/Appendix/01-Organization-Information/Append-Organization/)
