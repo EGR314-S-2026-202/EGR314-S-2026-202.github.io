@@ -30,4 +30,4 @@ Dr. Nichols<br>
 | Caleb Yuen             | [Caleb-Yuen.Github](https://cyuen808.github.io/cyuen808.EGR314.github.io/) |
 | Aaron Kiem                | [Aaron-Kiem.Github](https://aaronkiem.github.io/AaronKiem314.github.io/) |
 | Isaiah Johnston        | [Isaiah-Johnston.Github](https://isaiahcmd.github.io/Isaiahcmd-EGR314.github.io/) |
-| Name #5                | link |
+| Cristopher Gutierrez   | [Cristopher-Gutierrez.Github](https://cgutie40.github.io/cgutie40-EGR314.github.io/)|
