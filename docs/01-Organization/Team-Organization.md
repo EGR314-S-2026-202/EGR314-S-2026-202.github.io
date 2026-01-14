@@ -36,12 +36,11 @@ Team 202 is committed to designing and building high-quality products that excee
 
 | **Team Member**        |**First Choice Communication** |**Second Choice Communication** |**Third Choice Communication** |
 | ---------------------- | -----------------------|---------------------- |---------------------- |
-| Jacob Alger            | Imessage | Gmail | Discord |
-| Caleb Yuen             | Imessage | Gmail | Discord |
-| Aaron Kiem             | Imessage | Gmail | Discord |
-| Isaiah Johnston        | Imessage | Gmail | Discord |
-| Cristopher Gutierrez   | Imessage | Gmail | Discord |
-
+| Jacob Alger |           Texting           |           Phone call            |                Email           |
+| Caleb Yuen |            Texting           |           Phone call            |                Email           |
+| Aaron Kiem |            Texting           |           Phone call            |                Email           |
+| Isaiah Johnston |       Texting           |           Phone call            |                Email           |
+| Cristopher Gutierrez |  Texting           |           Phone call            |                Email           |
 
 
 ## Other Organizational Information
