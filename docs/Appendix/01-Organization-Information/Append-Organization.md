@@ -32,22 +32,22 @@ _Table #: Project Roles and Duties_
 ### Communication Procedures
 
 **Primary Team Communication**
-  - Texting is the agreed-upon **primary communication method** for day-to-day coordination and time-sensitive matters.
-  - Phone calls serve as the **secondary communication method** when immediate clarification or discussion is needed.
-  - Email is used as the **tertiary communication method**, primarily for formal communication, documentation, and instructor correspondence.
+* Texting is the agreed-upon primary communication method for day-to-day coordination and time-sensitive matters.
+* Phone calls serve as the secondary communication method when immediate clarification or discussion is needed.
+* Email is used as the tertiary communication method, primarily for formal communication, documentation, and instructor correspondence.
 
 **Response Expectations**
-  * Team members are expected to respond to **text messages within 12 hours**.
-  * Phone calls should be returned within **24 hours** if missed.
-  * Emails should be responded to within **48 hours** unless otherwise specified.
+* Team members are expected to respond to **text messages within 12 hours.
+* Phone calls should be returned within 24 hours if missed.
+* Emails should be responded to within 48 hours unless otherwise specified.
 
 **Escalation Procedure**
-  * If no response is received via text within the expected timeframe, communication may be escalated to a phone call.
-  * If further documentation or formal follow-up is required, email will be used.
+* If no response is received via text within the expected timeframe, communication may be escalated to a phone call.
+* If further documentation or formal follow-up is required, email will be used.
     
  **Team Accountability**
-  * All team members are responsible for maintaining availability through their preferred communication methods.
-  * Consistent communication is expected to ensure alignment with project milestones and deadlines.
+* All team members are responsible for maintaining availability through their preferred communication methods.
+* Consistent communication is expected to ensure alignment with project milestones and deadlines.
 
 
 ### Meeting Schedule and Coordiation
