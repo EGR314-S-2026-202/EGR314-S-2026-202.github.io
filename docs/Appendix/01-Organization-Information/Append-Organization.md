@@ -19,25 +19,36 @@ _Table #: Project Roles and Duties_
 
 ### Team Communication Method
 
->This is an area where teams often get into trouble. You should specific the channel(s)/method(s) for the team communication along with notes on the expectation in responce time.
-
-*Table #: Team Members' Prefered Communication Modes*
+*Table 2: Team Members' Prefered Communication Modes*
 
 | **Name** | **First Choice Communication** | **Second Choice Communication** | **Third Choice Communication** |
 | :------- | :----------------------------- | :------------------------------ | :----------------------------- |
-| Member 1 |                                |                                 |                                |
-| Member 2 |                                |                                 |                                |
-| Member 3 |                                |                                 |                                |
-| Member 4 |                                |                                 |                                |
+| Jacob Alger |           Texting           |           Phone call            |                Email           |
+| Caleb Yuen |            Texting           |           Phone call            |                Email           |
+| Aaron Kiem |            Texting           |           Phone call            |                Email           |
+| Isaiah Johnston |       Texting           |           Phone call            |                Email           |
+| Cristopher Gutierrez |  Texting           |           Phone call            |                Email           |
 
 ### Communication Procedures
 
-Then, answer the following question as a team:
+**Primary Team Communication**
+  - Texting is the agreed-upon **primary communication method** for day-to-day coordination and time-sensitive matters.
+  - Phone calls serve as the **secondary communication method** when immediate clarification or discussion is needed.
+  - Email is used as the **tertiary communication method**, primarily for formal communication, documentation, and instructor correspondence.
 
-* Discord was the agreed .....
-* It is expected a responce of ... on the agreed timeframe of ....
-* John Doe with be the point of contact for instructor correspondence? Who is responsible?
-  * Will that be communicated with ... back to the group.
+**Response Expectations**
+  * Team members are expected to respond to **text messages within 12 hours**.
+  * Phone calls should be returned within **24 hours** if missed.
+  * Emails should be responded to within **48 hours** unless otherwise specified.
+
+**Escalation Procedure**
+  * If no response is received via text within the expected timeframe, communication may be escalated to a phone call.
+  * If further documentation or formal follow-up is required, email will be used.
+    
+ **Team Accountability**
+  * All team members are responsible for maintaining availability through their preferred communication methods.
+  * Consistent communication is expected to ensure alignment with project milestones and deadlines.
+
 
 ### Meeting Schedule and Coordiation
 
