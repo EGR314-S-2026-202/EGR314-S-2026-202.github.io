@@ -13,18 +13,6 @@ tags:
 
 > Team 202 is committed to designing and building high-quality products that exceed customer expectations. We pursue innovation and excellence in everything we do, delivering reliable solutions that enable the successful completion of critical mission objectives.
 
-## Roles & Responsibilities
-
-| **Team Member**        |**Duties** |
-| ---------------------- | -----------------------|
-| Jacob Alger            | Meeting Leader |
-| Caleb Yuen             |  |
-| Aaron Kiem             | Project Monitor |
-| Isaiah Johnston        |  |
-| Cristopher Gutierrez   |  |
-| Asadbek Ruziev         |  |
-
-
 ## Other Organizational Information
 
 Other details about the organization structure of the team can be reviewed in ["Appendix: Team Organization Information."](https://egr314-s-2026-202.github.io/Appendix/01-Organization-Information/Append-Organization/)

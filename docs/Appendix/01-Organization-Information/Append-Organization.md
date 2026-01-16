@@ -11,11 +11,11 @@ _Table 1: Project Roles and Duties_
 | **Role**          | **Duties**                                                                                                                                |
 | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | Meeting leader - Jacob Alger   | Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting                           |
-| Meeting recorder  | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
-| Assignment leader | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
+| Meeting recorder - Caleb Yuen | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
+| Assignment leader - Cristopher Gutierrez | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
 | Project monitor - Aaron Kiem   | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
-| 5th role |   |
-| 6th role |   |
+| Team Regulator #1 - Isaiah Johnston | Assists team member's and facilates team responsibilities  |
+| Team Regulator #2 - Asadbek Ruziev  | Assists team member's and facilates team responsibilities |
 
 ## Communication Channels
 
@@ -30,6 +30,7 @@ _Table 1: Project Roles and Duties_
 | Aaron Kiem |            Texting           |           Phone call            |                Email           |
 | Isaiah Johnston |       Texting           |           Phone call            |                Email           |
 | Cristopher Gutierrez |  Texting           |           Phone call            |                Email           |
+| Asadbek Ruziev |        Texting           |           Phone call            |                Email           |
 
 
 ### Communication Procedures
@@ -80,3 +81,9 @@ _Table 1: Project Roles and Duties_
 #### Conflict Recognition & Resolution
 
 > List the steps and means of documenting issuses that lead to involving the instructor in a "Pink Slip" processor. It is best to be **proactive** in resolving these issues early in the semester!
+
+1. Identify and understand the issue 
+2. Communicate to find potential solutions
+3. Establish expectations and allow time for improvement
+4. Document progress or problem
+5. Discuss if instructor involvement is neccessary
