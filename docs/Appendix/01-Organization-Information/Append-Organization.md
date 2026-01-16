@@ -61,22 +61,21 @@ _Table 1: Project Roles and Duties_
 >Your team should identify common times for meeting every week. If you are not meeting weekly, your team's chances of success this semester are low
 
 * Team will meet at the Library or an agreed Lab Location on Tuesdays from 4:30pm to 5:30pm
-* It with be a ...(face-to-face or virtually)... type of meeting.
-* Reminders for the meetings will be by ....
-* Changes to this schedule will be ....
-* Accountability issuse will .....
-* For records of accountablity will be noted in the minutes... 
+* It with be either an in-person or online meeting.
+* Reminders for the meetings will be a few hours to the meeting.
+* Changes to this schedule will be a annouced a day prior to the meeting.
+* Accountability issue will be revolved through communication modes.
+* Records of accountablity will be noted by the team. 
 
 ### Team Coordination & Accountability
 
-* Assignments are submitted ....
-* To Ensure that each team member has the knowledge and skill required, the team will ......
-* Feedback is to and acted on ....
-* Missed contributions/assignments/actions will be ...
+* Assignments are submitted by the assignment leader.
+* To ensure that each team member has the knowledge and skill required, the team will communicate progress for completion.
+* Feedback is to and acted on upon team members.
+* Missed contributions/assignments/actions will be communicated and revolved through conflict resolution procedures.
 * Hold one another accountable to the expectations described in this charter.
 * Recognize that a team member is underperforming.
 * Help an underperforming team member improve.
-* What are the consequences if an underperforming team member does not improve (e.g., pink slip)?
 
 #### Conflict Recognition & Resolution
 
