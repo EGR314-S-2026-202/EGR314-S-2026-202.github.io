@@ -4,8 +4,6 @@ title: Appendix - Extra Team Organization Information
 
 ## Roles & Responsibilities
 
->Define the roles and responsibilities that will be filled by the team members as you work to achieve your team mission. The table below is an example of some roles that each team should have; as you organize your team, you may identify other roles that would help your team successfully fulfill the team mission. ***See assignment for more details.***
-
 _Table 1: Project Roles and Duties_
 
 | **Role**          | **Duties**                                                                                                                                |
@@ -21,7 +19,7 @@ _Table 1: Project Roles and Duties_
 
 ### Team Communication Method
 
-*Table 2: Team Members' Prefered Communication Modes*
+*Table 2: Team Members' Preferred Communication Modes*
 
 | **Name** | **First Choice Communication** | **Second Choice Communication** | **Third Choice Communication** |
 | :------- | :----------------------------- | :------------------------------ | :----------------------------- |
@@ -56,34 +54,30 @@ _Table 1: Project Roles and Duties_
 
 
 
-### Meeting Schedule and Coordiation
-
->Your team should identify common times for meeting every week. If you are not meeting weekly, your team's chances of success this semester are low
+### Meeting Schedule and Coordination
 
 * The team will meet at the Library or an agreed Lab Location on Tuesdays from 4:30pm to 5:30pm
 * Additional meetings will be held on Thursdays from 4:30pm to 8pm and Saturdays from 11am to 8pm if needed.
 * It will be either an in-person or online meeting.
-* Reminders for the meetings will be a few hours before the meeting.
-* Changes to this schedule will be a annouced a day prior to the meeting.
-* Accountability issue will be revolved through communication modes.
-* Records of accountablity will be noted by the team. 
+* Reminders for the meetings will be sent a few hours before the meeting.
+* Changes to this schedule will be announced a day prior to the meeting.
+* Accountability issues will be resolved through communication modes.
+* Records of accountability will be noted by the team. 
 
 ### Team Coordination & Accountability
 
 * Assignments are submitted by the assignment leader.
 * To ensure that each team member has the knowledge and skill required, the team will communicate progress for completion.
-* Feedback is to and acted on upon team members through modes of communication.
-* Missed contributions/assignments/actions will be communicated and revolved through conflict resolution procedures.
+* Feedback is to be acted upon by team members through modes of communication.
+* Missed contributions/assignments/actions will be communicated and resolved through conflict resolution procedures.
 * Hold one another accountable to the expectations described in this charter.
 * Recognize that a team member is underperforming.
 * Help an underperforming team member improve.
 
 #### Conflict Recognition & Resolution
 
-> List the steps and means of documenting issuses that lead to involving the instructor in a "Pink Slip" processor. It is best to be **proactive** in resolving these issues early in the semester!
-
 1. Identify and understand the issue 
 2. Communicate to find potential solutions
 3. Establish expectations and allow time for improvement
 4. Document progress or problem
-5. Discuss if instructor involvement is neccessary
+5. Discuss if instructor involvement is necessary
