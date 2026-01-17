@@ -72,7 +72,7 @@ _Table 1: Project Roles and Duties_
 
 * Assignments are submitted by the assignment leader.
 * To ensure that each team member has the knowledge and skill required, the team will communicate progress for completion.
-* Feedback is to and acted on upon team members.
+* Feedback is to and acted on upon team members through modes of communication.
 * Missed contributions/assignments/actions will be communicated and revolved through conflict resolution procedures.
 * Hold one another accountable to the expectations described in this charter.
 * Recognize that a team member is underperforming.
