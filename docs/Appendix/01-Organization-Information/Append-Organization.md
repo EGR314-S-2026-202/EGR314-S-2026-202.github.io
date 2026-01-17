@@ -15,7 +15,7 @@ _Table 1: Project Roles and Duties_
 | Assignment leader - Cristopher Gutierrez | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
 | Project monitor - Aaron Kiem   | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
 | Team Regulator #1 - Isaiah Johnston | Assists team member's and facilates team responsibilities  |
-| Team Regulator #2 - Asadbek Ruziev  | Assists team member's and facilates team responsibilities |
+| Team Regulator #2 - Asadbek Ruziev  | Assists team member's with meeting engineering requirements and facilates team responsibilities |
 
 ## Communication Channels
 

@@ -31,4 +31,4 @@ Dr. Nichols<br>
 | Aaron Kiem                | [Aaron-Kiem.Github](https://aaronkiem.github.io/AaronKiem314.github.io/) |
 | Isaiah Johnston        | [Isaiah-Johnston.Github](https://isaiahcmd.github.io/Isaiahcmd-EGR314.github.io/) |
 | Cristopher Gutierrez   | [Cristopher-Gutierrez.Github](https://cgutie40.github.io/cgutie40-EGR314.github.io/)|
-| Asadbek Ruziev   | []()|
+| Asadbek Ruziev   | [Asadbek-Ruziev.Github](https://mraruziev.github.io/Asadbek-EGR314/)|

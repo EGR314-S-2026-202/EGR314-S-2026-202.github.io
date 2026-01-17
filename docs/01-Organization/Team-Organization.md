@@ -6,7 +6,7 @@ tags:
 
 ## Team Charter
 
-> Team 202 is a group that focuses on communication, responsibility, and efficiency. We want to work together to make a high quality project that we can all be proud of.
+> Team 202 is a group that focuses on communication, responsibility, and efficiency. We want to work together to make a high quality project that we can all be proud of our work.
 
 
 ## Product Mission Statement
