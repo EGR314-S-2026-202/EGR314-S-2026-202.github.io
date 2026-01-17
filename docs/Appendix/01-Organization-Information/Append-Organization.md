@@ -60,9 +60,10 @@ _Table 1: Project Roles and Duties_
 
 >Your team should identify common times for meeting every week. If you are not meeting weekly, your team's chances of success this semester are low
 
-* Team will meet at the Library or an agreed Lab Location on Tuesdays from 4:30pm to 5:30pm
+* The team will meet at the Library or an agreed Lab Location on Tuesdays from 4:30pm to 5:30pm
+* Additional meetings will be held on Thursdays from 4:30pm to 8pm and Saturdays from 11am to 8pm if needed.
 * It will be either an in-person or online meeting.
-* Reminders for the meetings will be a few hours to the meeting.
+* Reminders for the meetings will be a few hours before the meeting.
 * Changes to this schedule will be a annouced a day prior to the meeting.
 * Accountability issue will be revolved through communication modes.
 * Records of accountablity will be noted by the team. 
