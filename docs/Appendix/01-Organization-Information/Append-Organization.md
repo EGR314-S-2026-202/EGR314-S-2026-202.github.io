@@ -15,6 +15,24 @@ _Table 1: Project Roles and Duties_
 | Team Regulator #1 - Isaiah Johnston | Assists team member's and facilates team responsibilities  |
 | Team Regulator #2 - Asadbek Ruziev  | Assists team member's and facilates team responsibilities |
 
+#### Frequency of role changes:
+* Project roles will be updated as the project progresses and reviewed during weekly team meetings.
+
+#### Role assignment decisions:
+* Role adjustments will be decided collectively, with each member acknowledging their responsibilities before proceeding.
+
+#### Team support and collaboration:
+* Team members will work interdependently and communicate early if help is needed to allow the team to coordinate support.
+
+#### Adjusting roles and responsibilities:
+* Members will communicate any issues affecting their work in advance, either during weekly meetings or through urgent communication (text/call). Reassignments will be coordinated by the assignment leader.
+
+#### Tracking activities and milestones:
+* Progress will be tracked collaboratively by the project monitor and meeting recorder, with additional input from team members as the project advances.
+
+#### Assigning technical responsibilities:
+* Technical tasks will be discussed and assigned during weekly meetings based on required skills and knowledge, with adjustments made as needed to complete the work effectively.
+
 ## Communication Channels
 
 ### Team Communication Method
