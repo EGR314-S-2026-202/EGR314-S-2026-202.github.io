@@ -98,8 +98,4 @@ _Table 1: Project Roles and Duties_
 2. Communicate to find potential solutions
 3. Establish expectations and allow time for improvement
 4. Document progress or problem
-<<<<<<< HEAD
-5. Discuss if instructor involvement is neccessary
-=======
 5. Discuss if instructor involvement is necessary
->>>>>>> b34da9bfb18addbb63ecc0427e93b6db975e2d47
