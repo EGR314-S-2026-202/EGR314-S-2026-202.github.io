@@ -9,3 +9,23 @@ The goal of our exploration device is to create a human-controlled, remote-opera
 ## Audience
 
 The primary audience for this device is farmers and farm managers who need efficient ways to monitor crops and field conditions without manually walking large areas of land. By using a remotely operated exploration device, operators can inspect fields, check for damage, and identify potential issues while saving time and reducing physical labor. A secondary audience includes agricultural technology developers and researchers who are interested in testing remote control systems, sensor integration, and human-machine interfaces for precision agriculture. For these users, the device serves as a flexible and low-cost platform for experimenting with agricultural monitoring technologies.
+
+## Generate Ideas
+
+
+
+
+
+## Sort, Rank, and Group
+
+
+
+
+
+## Product Concept Designs
+
+
+
+
+## Selected Concept
+(With a header, create a section that is a short summary of the decision-making process your team used to pick one of the team's design concepts and a image that shows this concept. Again, annotate the image to highlight all features included in the selected design concept. * Did you further combine good ideas from your design ideation? * Did you select the best? * How was the decision made?) <----- **Delete after**
