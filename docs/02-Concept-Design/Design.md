@@ -14,11 +14,11 @@ The primary audience for this device is farmers and farm managers who need effic
 
 Below is our initial brainstorming spreadsheet that lists potential features, sensors, mobility options, and system concepts considered for our exploration device.
 
-![Idea list part 1](docs/images/ideas_part1.png)
+![Idea list part 1](images/ideas_part1.png)
 
-![Idea list part 2](docs/images/ideas_part2.png)
+![Idea list part 2](images/ideas_part2.png)
 
-![Idea list part 3](docs/images/ideas_part3.png)
+![Idea list part 3](images/ideas_part3.png)
 
 
 ## Sort, Rank, and Group
