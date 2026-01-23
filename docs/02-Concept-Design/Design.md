@@ -13,14 +13,8 @@ The primary audience for this device is farmers and farm managers who need effic
 ## Exploration Device – 100 Ideas (Brainstorming)
 
 Below is our initial brainstorming spreadsheet that lists potential features, sensors, mobility options, and system concepts considered for our exploration device.
-
-### Idea List (Part 1)
 ![Idea list part 1](docs/images/ideas_part1.png)
-
-### Idea List (Part 2)
 ![Idea list part 2](docs/images/ideas_part2.png)
-
-### Idea List (Part 3)
 ![Idea list part 3](docs/images/ideas_part3.png)
 
 
