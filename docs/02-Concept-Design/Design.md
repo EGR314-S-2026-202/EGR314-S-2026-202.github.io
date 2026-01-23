@@ -26,6 +26,7 @@ Below is our initial brainstorming spreadsheet that lists potential features, se
 
 ![sorted ideas list](images/sorted_ideas.png)
 
+![ranked ideas list](images/ranked_ideas.png)
 
 ## Product Concept Designs
 
