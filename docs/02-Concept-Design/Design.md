@@ -10,10 +10,18 @@ The goal of our exploration device is to create a human-controlled, remote-opera
 
 The primary audience for this device is farmers and farm managers who need efficient ways to monitor crops and field conditions without manually walking large areas of land. By using a remotely operated exploration device, operators can inspect fields, check for damage, and identify potential issues while saving time and reducing physical labor. A secondary audience includes agricultural technology developers and researchers who are interested in testing remote control systems, sensor integration, and human-machine interfaces for precision agriculture. For these users, the device serves as a flexible and low-cost platform for experimenting with agricultural monitoring technologies.
 
-## Generate Ideas
+## Exploration Device – 100 Ideas (Brainstorming)
 
+Below is our initial brainstorming spreadsheet that lists potential features, sensors, mobility options, and system concepts considered for our exploration device.
 
+### Idea List (Part 1)
+![Idea list part 1](docs/images/ideas_part1.png)
 
+### Idea List (Part 2)
+![Idea list part 2](docs/images/ideas_part2.png)
+
+### Idea List (Part 3)
+![Idea list part 3](docs/images/ideas_part3.png)
 
 
 ## Sort, Rank, and Group
