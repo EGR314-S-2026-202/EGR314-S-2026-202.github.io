@@ -30,6 +30,8 @@ Below is our initial brainstorming spreadsheet that lists potential features, se
 
 ## Product Concept Designs
 
+Animated exploration rover concept by Aaron Kiem
+["Youtube video"](https://youtu.be/z86Iy7YyNKw)
 
 
 
