@@ -42,6 +42,7 @@ Animated exploration rover concept by Aaron Kiem
 The Surveyor meets the user's needs by being a controllable exploration device capable of measuring and interacting with its surroundings. It is equipped with a microphone, a temperature sensor, a metal detector for analyzing an area, and robotic arms for manipulating materials for retrieval or movement. It comes with a controller that can be used to move the rover, read the sensors, and run checks on the device's functionality.
 
 Functionality can be split into the following subsystems for our team to design:
+
 - Temperature Sensor (Sensor)
 - Microphone (Sensor)
 - Metal Detector (Sensor)
