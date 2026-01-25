@@ -31,7 +31,8 @@ Below is our initial brainstorming spreadsheet that lists potential features, se
 ## Product Concept Designs
 
 Animated exploration rover concept by Aaron Kiem
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=z86Iy7YyNKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/z86Iy7YyNKw/0.jpg)](https://www.youtube.com/watch?v=z86Iy7YyNKw)
+
 
 
 ## Selected Concept
