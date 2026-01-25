@@ -30,10 +30,13 @@ Below is our initial brainstorming spreadsheet that lists potential features, se
 
 ## Product Concept Designs
 
+### Animated Exploration Rover
 Animated exploration rover concept by Aaron Kiem
 [![Watch the video](https://img.youtube.com/vi/z86Iy7YyNKw/0.jpg)](https://www.youtube.com/watch?v=z86Iy7YyNKw)
 
-
+### The Surveyor
+![Surveyor Concept](../02-Concept-Design/images/EGR314-Surveyor-Concept.svg)
+> Concept by Jacob Alger. View as a PDF [here](../02-Concept-Design/images/EGR314-Surveyor-Concept.pdf)
 
 ## Selected Concept
 (With a header, create a section that is a short summary of the decision-making process your team used to pick one of the team's design concepts and a image that shows this concept. Again, annotate the image to highlight all features included in the selected design concept. * Did you further combine good ideas from your design ideation? * Did you select the best? * How was the decision made?) <----- **Delete after**
