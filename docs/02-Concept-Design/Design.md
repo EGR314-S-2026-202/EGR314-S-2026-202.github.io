@@ -53,6 +53,10 @@ Functionality can be split into the following subsystems for our team to design:
 
 This device would be designed with our users' understandability in mind. It would have to come with a manual, but most of the controller functionality will be intuitive for moving/turning the rover and for using the arms or sensors. We would design the use to be as comfortable as possible, but this would most likely require several rounds of user testing and design iteration to achieve peak comfort for the user.
 
+### Cropscout
+![Cropscout Concept](../02-Concept-Design/images/Cropscout_cropped.png)
+> Concept by Cristopher G E. View as a PDF [here](../02-Concept-Design/images/Cropscout.pdf)
+</b>
 
 ## Selected Concept
 (With a header, create a section that is a short summary of the decision-making process your team used to pick one of the team's design concepts and a image that shows this concept. Again, annotate the image to highlight all features included in the selected design concept. * Did you further combine good ideas from your design ideation? * Did you select the best? * How was the decision made?) <----- **Delete after**
