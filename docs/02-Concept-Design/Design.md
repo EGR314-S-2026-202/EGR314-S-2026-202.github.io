@@ -64,7 +64,9 @@ An onboard camera allows CropScout to visually inspect crops, identify produce, 
 
 To help farm workers quickly identify problem areas, CropScout features a stake-dispensing mechanism that marks locations where potential crop issues are detected. These stakes can be deployed automatically based on sensor readings or manually through the user interface.
 
-CropScout communicates wirelessly with a user application, providing real-time access to sensor data, images, battery status, and flagged locations. The app also allows for direct control of the rover and adjustment of system settings. For on-site operation, the rover includes a simple human-machine interface with pushbuttons and an OLED display to show sensor readings and system status.
+CropScout wirelessly connects to a user application that provides real-time access to crop and environmental data, captured images, and battery status. The application records inspection results, including the number of detected issues and their reason codes, so farm workers can review them later.
+
+For on-site operation, CropScout features a local interface with pushbuttons and an OLED display. This interface allows users to view sensor readings, receive alerts when issues are detected, and manually control rover movement and system functions while in the field.
 
  These functions are arranged in the following subsystems for development:
 
