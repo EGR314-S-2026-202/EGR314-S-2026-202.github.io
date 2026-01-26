@@ -79,7 +79,7 @@ For on-site operation, CropScout features a local interface with pushbuttons and
 - Controller ( Human Machine Interface)
 - Communication Module (Two-way wireless communication)
 
-CropScout is built to be intuitive and easy to use, featuring clear icons, remote error alerts, and task-focused controls for quick, simple operation in the field. Its rugged, weather-resistant design ensures durability and minimizes maintenance needs, making it reliable in tough agricultural conditions. With minimal training required, the user interface and straightforward documentation make it easy for anyone to get started.
+CropScout is built to be intuitive and easy to use, featuring clear icons, remote error alerts, and task-focused controls for quick, simple operation in the field. Its rugged, weather-resistant design provides durability and minimizes maintenance needs, making it reliable in tough agricultural conditions. With minimal training required, the user interface and straightforward documentation make it easy for anyone to get started.
 
 ### Field Defender
 ![Field Defender](../02-Concept-Design/images/AGdron.png)
