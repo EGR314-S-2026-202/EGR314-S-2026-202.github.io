@@ -79,6 +79,23 @@ For on-site operation, CropScout features a local interface with pushbuttons and
 - Controller ( Human Machine Interface)
 - Communication Module (Two-way wireless communication)
 
+### Field Defender
+![Field Defender](../02-Concept-Design/images/AGdron.png)
+> Concept by Isaiah Johsnston. View as a SVG [here](../02-Concept-Design/images/AGdrone.svg)
+</b>
+The Field Defender is made of a tough reinforced polymere designed to monitor and defend fields from rodents and fires. The Defender is equiped with a rotating turret contaning a fire extinguishing cannon and a .177 air powered pellet gun. Terrain maping is accomplished with 4 LiDAR cameras. The Defender has a retractable moisture sensor for routienly monitoring crops irrigation levels. Tank treads allow for zero point tunrning and mobilty through rough terrain. A camera, and thermal camera allow users to monitor activities day and night. The Defender can be piloted remotely using a PS2 controller and a display, or allow AI to run through user defined checks, routes and activities. The Defender is powered with a long lasting rechargable battery.
+
+These subsystems are arranged in the following manner:
+
+-Camera- Targeting system (pellet) (sensor)
+-Thermal camerar- Targeting (extinguisher)(sensor)
+-LiDAR- Terrain mapping (sensor)
+-Tank Wheele- Locomotion (Actuator)
+-Moisture sensor- Measure irrigation (sensor)
+-Sensor retraction- Move moisture sensor up and down (actuator)
+-Rechargeable battery- (power source)
+-PS2 controller (human machine interface)
+-Display- Displays data from the robot to the user via wifi (Two-way wireless comunication)
 
 ## Selected Concept
 (With a header, create a section that is a short summary of the decision-making process your team used to pick one of the team's design concepts and a image that shows this concept. Again, annotate the image to highlight all features included in the selected design concept. * Did you further combine good ideas from your design ideation? * Did you select the best? * How was the decision made?) <----- **Delete after**
