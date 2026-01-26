@@ -53,10 +53,30 @@ Functionality can be split into the following subsystems for our team to design:
 
 This device would be designed with our users' understandability in mind. It would have to come with a manual, but most of the controller functionality will be intuitive for moving/turning the rover and for using the arms or sensors. We would design the use to be as comfortable as possible, but this would most likely require several rounds of user testing and design iteration to achieve peak comfort for the user.
 
-### Cropscout
-![Cropscout Concept](../02-Concept-Design/images/Cropscout_cropped.png)
+### CropScout
+![CropScout Concept](../02-Concept-Design/images/Cropscout_cropped.png)
 > Concept by Cristopher G E. View as a PDF [here](../02-Concept-Design/images/Cropscout.pdf)
 </b>
+
+CropScout is a rugged, weather-resistant rover built to help monitor crops and assess field conditions. It gathers data on crops and their environment using a multi-purpose probe mounted on a movable front arm. This probe measures ambient temperature, humidity, and soil pH, with pH readings taken using a glass electrode and a custom analog signal-conditioning circuit.
+
+An onboard camera allows CropScout to visually inspect crops, identify produce, and record field conditions as it moves through the field. The rover runs on a rechargeable battery and uses large rubber wheels, making it well-suited for uneven or soft agricultural terrain.
+
+To help farm workers quickly identify problem areas, CropScout features a stake-dispensing mechanism that marks locations where potential crop issues are detected. These stakes can be deployed automatically based on sensor readings or manually through the user interface.
+
+CropScout communicates wirelessly with a user application, providing real-time access to sensor data, images, battery status, and flagged locations. The app also allows for direct control of the rover and adjustment of system settings. For on-site operation, the rover includes a simple human-machine interface with pushbuttons and an OLED display to show sensor readings and system status.
+
+ These functions are arranged in the following subsystems for development:
+
+- Land Marker- Stake Dispenser (Actuator) 
+- Large Rubber Wheels (Actuator)
+- Front Arm (Actuator)
+- Temperature Probe (Sensor)
+- Humidity Probe (Sensor)
+- pH Probe (Sensor)
+- Controller ( Human Machine Interface)
+- Communication Module (Two-way wireless communication)
+
 
 ## Selected Concept
 (With a header, create a section that is a short summary of the decision-making process your team used to pick one of the team's design concepts and a image that shows this concept. Again, annotate the image to highlight all features included in the selected design concept. * Did you further combine good ideas from your design ideation? * Did you select the best? * How was the decision made?) <----- **Delete after**
