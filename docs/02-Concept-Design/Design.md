@@ -82,9 +82,10 @@ For on-site operation, CropScout features a local interface with pushbuttons and
 CropScout is built to be intuitive and easy to use, featuring clear icons, remote error alerts, and task-focused controls for quick, simple operation in the field. Its rugged, weather-resistant design provides durability and minimizes maintenance needs, making it reliable in tough agricultural conditions. With minimal training required, the user interface and straightforward documentation make it easy for anyone to get started.
 
 ### Field Defender
-![Field Defender](../02-Concept-Design/images/AGdron.png)
+![Field Defender](../02-Concept-Design/images/AGdrone.png)
 > Concept by Isaiah Johsnston. View as a SVG [here](../02-Concept-Design/images/AGdrone.svg)
 </b>
+
 The Field Defender is made of a tough reinforced polymere designed to monitor and defend fields from rodents and fires. The Defender is equiped with a rotating turret contaning a fire extinguishing cannon and a .177 air powered pellet gun. Terrain maping is accomplished with 4 LiDAR cameras. The Defender has a retractable moisture sensor for routienly monitoring crops irrigation levels. Tank treads allow for zero point tunrning and mobilty through rough terrain. A camera, and thermal camera allow users to monitor activities day and night. The Defender can be piloted remotely using a PS2 controller and a display, or allow AI to run through user defined checks, routes and activities. The Defender is powered with a long lasting rechargable battery.
 
 These subsystems are arranged in the following manner:
