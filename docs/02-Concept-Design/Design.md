@@ -90,15 +90,17 @@ The Field Defender is made of a tough reinforced polymere designed to monitor an
 
 These subsystems are arranged in the following manner:
 
--Camera- Targeting system (pellet) (sensor)
--Thermal camerar- Targeting (extinguisher)(sensor)
--LiDAR- Terrain mapping (sensor)
--Tank Wheele- Locomotion (Actuator)
--Moisture sensor- Measure irrigation (sensor)
--Sensor retraction- Move moisture sensor up and down (actuator)
--Rechargeable battery- (power source)
--PS2 controller (human machine interface)
--Display- Displays data from the robot to the user via wifi (Two-way wireless comunication)
+- Camera- Targeting system (pellet) (sensor)
+- Thermal camerar- Targeting (extinguisher)(sensor)
+- LiDAR- Terrain mapping (sensor)
+- Tank Wheele- Locomotion (Actuator)
+- Moisture sensor- Measure irrigation (sensor)
+- Sensor retraction- Move moisture sensor up and down (actuator)
+- Rechargeable battery- (power source)
+- PS2 controller (human machine interface)
+- Display- Displays data from the robot to the user via wifi (Two-way wireless comunication)
 
-## Selected Concept
-(With a header, create a section that is a short summary of the decision-making process your team used to pick one of the team's design concepts and a image that shows this concept. Again, annotate the image to highlight all features included in the selected design concept. * Did you further combine good ideas from your design ideation? * Did you select the best? * How was the decision made?) <----- **Delete after**
+### Selected Concept: CropScout
+![Annotaed CropScout Concept](../02-Concept-Design/images/selected_C.pdf)
+
+We unanimously voted for the CropScout. There were many ideas across everyone’s concepts that we liked; however, we felt the CropScout was a well-rounded rover with conceivable ideas and helpful features that could make it a valuable tool for farmers. Adding the Surveyor’s remote-control feature would be a great addition to the CropScout concept. We discussed this over text by sharing our thoughts on all of the concepts that were presented.
