@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#header" class="md-skip">
+        <a href="#requirements-table" class="md-skip">
           Skip to content
         </a>
       
@@ -574,9 +574,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#header" class="md-nav__link">
+  <a href="#requirements-table" class="md-nav__link">
     <span class="md-ellipsis">
-      Header
+      Requirements Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-member-subsystem-assignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Team Member Subsystem Assignment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirement-explanations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirement Explanations
     </span>
   </a>
   
@@ -721,9 +739,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#header" class="md-nav__link">
+  <a href="#requirements-table" class="md-nav__link">
     <span class="md-ellipsis">
-      Header
+      Requirements Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-member-subsystem-assignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Team Member Subsystem Assignment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirement-explanations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirement Explanations
     </span>
   </a>
   
@@ -754,8 +790,111 @@
 
   <h1>Project Requirements</h1>
 
-<h2 id="header">Header</h2>
-<p>Add content</p>
+<h2 id="requirements-table">Requirements Table</h2>
+<table>
+<thead>
+<tr>
+<th>Requirement ID</th>
+<th>Requirement Description</th>
+<th>Minimum (Not Failure)</th>
+<th>Target Measurement</th>
+<th>Feature Satisfied</th>
+<th>Stretch Goal? (Y/N)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TR-01</td>
+<td>Rover shall be remotely driven forward, reverse, and turn</td>
+<td>Forward and Backward</td>
+<td>Turning left and right</td>
+<td>Actuator</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TR-02</td>
+<td>The system shall operate on battery power</td>
+<td>≥ 10 min runtime and power all systems</td>
+<td>≥ 30 min runtime</td>
+<td>Power</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TR-03</td>
+<td>Rover shall measure soil or environmental humidity</td>
+<td>Wet/Dry</td>
+<td>High Resolution</td>
+<td>Sensor</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TR-04</td>
+<td>Rover shall be controlled through a human-machine interface</td>
+<td>Buttons only</td>
+<td>Button + display</td>
+<td>HMI</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TR-05</td>
+<td>Rover shall measure the ambient temperature</td>
+<td>土 5 ℃</td>
+<td>土 2 ℃</td>
+<td>Sensor</td>
+<td>Yes, be able to convert C to F</td>
+</tr>
+<tr>
+<td>TR-06</td>
+<td>Rover shall send sensor data to the controller screen and get control information back</td>
+<td>Inputs make the rover move/get sensor data</td>
+<td>Low Latency / Clean data and graphs</td>
+<td>Communication</td>
+<td>Yes, Store data in a .csv convertible data bank</td>
+</tr>
+<tr>
+<td>TR-07</td>
+<td>All individual boards talk to each other using the same communication lines</td>
+<td>One-way messages</td>
+<td>Two-way UART messaging</td>
+<td>HMI</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TR-08</td>
+<td>Rover will protect probes from being destroyed using pressure sensing.</td>
+<td>At any pressure, the arm stops and returns home</td>
+<td>At a specified pressure arm returns home and sends an error message</td>
+<td>Sensor / Controller</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TR-09</td>
+<td>Subsystems will send error reports to HMI</td>
+<td>Alive signals</td>
+<td>Specific issues with possible solutions given</td>
+<td>Communication</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TR-10</td>
+<td>Rover shall initialize all subsystems and indicate when the system is ready for operation</td>
+<td>Power-on and basic communication</td>
+<td>All subsystems report ready to HMI within 10 seconds</td>
+<td>System integration / HMI</td>
+<td>No</td>
+</tr>
+<tr>
+<td>TR-11</td>
+<td>Rover shall deploy a physical marker using the front arm subsystem.</td>
+<td>Rover shall deploy a physical marker using the front arm subsystem.</td>
+<td>Can select and deploy one of multiple marker types</td>
+<td>Actuator</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="team-member-subsystem-assignment">Team Member Subsystem Assignment</h2>
+<h2 id="requirement-explanations">Requirement Explanations</h2>
 
 
 
