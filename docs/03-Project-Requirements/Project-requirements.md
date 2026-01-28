@@ -17,6 +17,7 @@ title: Project Requirements
 | TR-09 | Subsystems will send error reports to HMI | Alive signals | Specific issues with possible solutions given | Communication | No | |
 | TR-10 | Rover shall initialize all subsystems and indicate when the system is ready for operation | Power-on and basic communication | All subsystems report ready to HMI within 10 seconds | System integration / HMI | No | |
 | TR-11 | Rover shall deploy a physical marker using the front arm subsystem. | Rover shall deploy a physical marker using the front arm subsystem. | Can select and deploy one of multiple marker types | Actuator | No | |
+> **Note:** This table scrolls to the side. Please scroll to see all of it.
 
 
 ## Team Member Subsystem Assignment
