@@ -22,6 +22,16 @@ title: Project Requirements
 
 ## Team Member Subsystem Assignment
 
+| Team Member | Subsystem Responsibility | Primary Requirements |
+|---|---|---|
+| Jacob Alger | Human-Machine Interface | TR-03, TR-07, TR-10, supports TR-06 |
+| Tyler Dean | Rover sensors (Pressure/Tilt) | Sensor: TR-06, TR-07, TR-08 |
+| Cristopher Gutierrez | Wireless Communication | TR-06, TR-09 |
+| Isaiah Johnston |  |  |
+| Aaron Kiem | Soil pH Sensor Subsystem | TR-03, TR-06, TR-09 |
+| Asadbek Ruziev | Wheel motor subsystem |  |
+| Caleb Yuen | Front Arm Subsystem | TR-08, TR-11; supports TR-01 (actuation) |
+
 
 ## Requirement Explanations
 - **TR-01:** ...
