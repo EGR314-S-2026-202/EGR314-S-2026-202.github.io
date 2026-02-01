@@ -28,7 +28,7 @@ Dr. Nichols<br>
 | ---------------------- | -----------------------|
 | Jacob Alger            | [Jacob-Alger.Github](https://jacob-alger.github.io/Jacob-Alger-314.github.io/) |
 | Caleb Yuen             | [Caleb-Yuen.Github](https://cyuen808.github.io/cyuen808.EGR314.github.io/) |
-| Aaron Kiem                | [Aaron-Kiem.Github](https://aaronkiem.github.io/AaronKiem314.github.io/) |
+| Aaron Kiem                | [Aaron-Kiem.Github](https://aaronkiem.github.io/) |
 | Isaiah Johnston        | [Isaiah-Johnston.Github](https://isaiahcmd.github.io/Isaiahcmd-EGR314.github.io/) |
 | Cristopher Gutierrez   | [Cristopher-Gutierrez.Github](https://cgutie40.github.io/cgutie40-EGR314.github.io/)|
 | Asadbek Ruziev   | [Asadbek-Ruziev.Github](https://mraruziev.github.io/Asadbek-EGR314/)|
