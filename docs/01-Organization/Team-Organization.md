@@ -12,7 +12,7 @@ To create this Team Charter, we all sat down and discussed our top 3 goals for t
 
 ## Product Mission Statement
 
-> Team 202 is committed to designing and building high-quality products that exceed customer expectations, pursuing innovation and excellence in everything we do, and delivering reliable solutions that enable the successful completion of critical mission objectives.
+> Team 202’s mission is to develop a modular exploration device that enables remote users to safely observe and interact with challenging environments through integrated sensing, actuation, and wireless communication.
 
 To create this Mission Statement, we held a meeting to discuss the project's description and how we planned to achieve a successful outcome. We then boiled these ideas down to a single statement that accurately captures our desires for this product.
 
