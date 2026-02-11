@@ -16,7 +16,7 @@ title: Project Requirements
 | TR-08 | Rover will protect probes from being destroyed using pressure sensing. | At any pressure, the arm stops and returns home | At a specified pressure arm returns home and sends an error message | Sensor / Controller | **No** |
 | TR-09 | Subsystems will send error reports to HMI | Alive signals | Specific issues with possible solutions given | Communication | **No** |
 | TR-10 | Rover shall initialize all subsystems and indicate when the system is ready for operation | Power-on and basic communication | All subsystems report ready to HMI within 10 seconds | System integration / HMI | **No** |
-| TR-11 | Rover shall deploy a physical marker using the front arm subsystem. | Rover shall deploy a physical marker using the front arm subsystem. | Can select and deploy one of multiple marker types | Actuator | **No** |
+
 
 
 ## Team Member Subsystem Assignment
@@ -29,7 +29,7 @@ title: Project Requirements
 | Isaiah Johnston | Environmental Sensors (Temp/Humidity) | TR-03, TR-05 |
 | Aaron Kiem | Soil pH Sensor Subsystem | TR-03, TR-06, TR-09 |
 | Asadbek Ruziev | Wheel motor subsystem | TR-01 |
-| Caleb Yuen | Front Arm Subsystem | TR-08, TR-11; supports TR-01 (actuation) |
+| Caleb Yuen | Front Arm Subsystem | TR-08, supports TR-01 (actuation) |
 
 
 ## Requirement Explanations
@@ -63,5 +63,3 @@ title: Project Requirements
 - **TR-10:**  
   A clear startup and initialization process is necessary to ensure all subsystems are ready before operation begins. This requirement ensures that basic communication is established as soon as the system powers on. Reporting readiness to the HMI within a defined time gives the user confidence that the rover is functioning properly. This also helps prevent commands from being sent before the system is fully initialized.
 
-- **TR-11:**  
-  Deploying physical markers allows users to identify locations of interest directly in the field. This requirement supports practical workflows such as marking areas that require follow-up inspection or maintenance. Using the front arm subsystem allows markers to be placed accurately and deliberately. Supporting multiple marker types provides additional flexibility for representing different observations.
