@@ -2,6 +2,14 @@
 title: Block Diagram, Protocol, and Message Structure
 ---
 
-## Header
+## Team Block Diagram
+
+Add content!
+
+## Communication Process Diagram
+
+Add content!
+
+## Message Types
 
 Add content!
