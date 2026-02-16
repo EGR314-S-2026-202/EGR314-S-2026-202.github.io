@@ -5,6 +5,7 @@ title: Block Diagram, Protocol, and Message Structure
 ## Team Block Diagram
 
 Add content!
+> **Note:** You can download the Team Block Diagram as a PNG [here]
 
 ## Communication Process Diagram
 
