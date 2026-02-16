@@ -795,7 +795,145 @@
 <h2 id="communication-process-diagram">Communication Process Diagram</h2>
 <p>Add content!</p>
 <h2 id="message-types">Message Types</h2>
-<p>Add content!</p>
+<table>
+<thead>
+<tr>
+<th>Sending</th>
+<th>Receiving</th>
+<th>Message Data Type</th>
+<th>Message</th>
+<th>Notes/Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wireless Communication</td>
+<td>HMI</td>
+<td>digital</td>
+<td>BT_STATUS</td>
+<td>1 = Connected <br> 0 = Disconnected</td>
+</tr>
+<tr>
+<td>Temp</td>
+<td>HMI</td>
+<td>string</td>
+<td>“X℃/℉”</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>Humidity</td>
+<td>HMI</td>
+<td>string</td>
+<td>“X% RH”</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>Accelerometer</td>
+<td>Front Arm</td>
+<td>digital</td>
+<td>“1” or “0”</td>
+<td>1 for safe to continue 0 to indicate object impact</td>
+</tr>
+<tr>
+<td>HMI / Wireless</td>
+<td>Front Arm</td>
+<td>int</td>
+<td>SET_POSITION</td>
+<td>Used to rotate base stepper motor to specified position</td>
+</tr>
+<tr>
+<td>Front Arm</td>
+<td>HMI / Wireless</td>
+<td>int</td>
+<td>ACK_POSITION</td>
+<td>Sent after motion completes to confirm position reached</td>
+</tr>
+<tr>
+<td>Front Arm</td>
+<td>HMI</td>
+<td>string</td>
+<td>ARM_STATUS</td>
+<td>Indicates current state of actuator</td>
+</tr>
+<tr>
+<td>Front Arm</td>
+<td>HMI / Wireless</td>
+<td>int</td>
+<td>ARM_ERROR</td>
+<td>0 = No Error, 1 = Stall, 2 = Overcurrent, etc.</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Front Arm</td>
+<td>digital</td>
+<td>JOG_ENABLE</td>
+<td>1 = Move, 0 = Stop</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Wheels</td>
+<td>2-bit int</td>
+<td>11</td>
+<td>Forward</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Wheels</td>
+<td>2-bit int</td>
+<td>00</td>
+<td>Backward</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Wheels</td>
+<td>2-bit int</td>
+<td>01</td>
+<td>Right</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Wheels</td>
+<td>2-bit int</td>
+<td>10</td>
+<td>Left</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Temp</td>
+<td>digital</td>
+<td>1</td>
+<td>1 = Send reading <br> 0 = Nothing</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Humidity</td>
+<td>digital</td>
+<td>1</td>
+<td>1 = Send reading <br> 0 = Nothing</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Accelerometer</td>
+<td>digital</td>
+<td>1</td>
+<td>1 = Send reading <br> 0 = Nothing</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Pressure Sensor</td>
+<td>digital</td>
+<td>1</td>
+<td>1 = Send reading <br> 0 = Nothing</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Metal Detector</td>
+<td>digital</td>
+<td>1</td>
+<td>1 = Send reading <br> 0 = Nothing</td>
+</tr>
+</tbody>
+</table>
 
 
 
