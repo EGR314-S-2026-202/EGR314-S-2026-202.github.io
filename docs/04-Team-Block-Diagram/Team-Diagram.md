@@ -6,11 +6,13 @@ title: Block Diagram, Protocol, and Message Structure
 
 ![Team Block Diagram](TBDV1.png)
 
-> **Note:** You can download the Team Block Diagram as a PNG [here](TBDV1.png)
+> You can view the Team Block Diagram as a PNG [here](TBDV1.png)
 
 ## Communication Process Diagram
 
-Add content!
+![Communication Process Diagram](TSDV1.drawio.png)
+
+> You can view the Communication Process Diagram as a PNG [here](TSDV1.drawio.png)
 
 ## Message Types
 
