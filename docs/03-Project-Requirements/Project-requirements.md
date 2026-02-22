@@ -27,7 +27,7 @@ title: Project Requirements
 | Tyler Dean | Rover sensors (Pressure/Tilt) | Sensor: TR-06, TR-07, TR-08 |
 | Cristopher Gutierrez | Wireless Communication | TR-06, TR-09 |
 | Isaiah Johnston | Environmental Sensors (Temp/Humidity) | TR-03, TR-05 |
-| Aaron Kiem | Soil pH Sensor Subsystem | TR-03, TR-06, TR-09 |
+| Aaron Kiem | Metal Detector Subsystem | TR-06, TR-09 |
 | Asadbek Ruziev | Wheel motor subsystem | TR-01 |
 | Caleb Yuen | Front Arm Subsystem | TR-08, supports TR-01 (actuation) |
 
