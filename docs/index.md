@@ -17,9 +17,7 @@ Dr. Nichols<br>
 </center>
 
 ## Team Introduction
-> This will be updated as part of the preparation for the External Review.<br>
->    * This needs to be updated to reflect a team introduction.<br>
->    * Content should also help an unfamiliar reader navigate to areas of interest.
+Team 202 is a group of engineering students who share a goal of designing a reliable and easy-to-use exploration rover tasked to sense surroundings for agricultural use. Each member supports a unique aspect of the rover model in which allows for wireless controlling and relaying various sensing data. The data projects the surrounding soil temperature, humidity, and pressure, as well as being equipped with a tilt sensor and metal detector. Through communication and creativity, we strive to develop a dependable exploration device that enables the user to observe and interact with challenging environments safely. 
 
 
 ## Team Members Datasheet links
