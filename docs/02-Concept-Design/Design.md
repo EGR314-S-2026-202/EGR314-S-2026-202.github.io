@@ -23,9 +23,10 @@ Below is our initial brainstorming spreadsheet that lists potential features, se
 
 ## Sort, Rank, and Group
 
-
+The listing below is of ideas sorted into 5 seperate groups:
 ![sorted ideas list](images/sorted_ideas.png)
 
+The listing bleow is of the ideas in the groups ranked from most appealing/applicable to least appealing/applicable:
 ![ranked ideas list](images/ranked_ideas.png)
 
 ## Product Concept Designs
