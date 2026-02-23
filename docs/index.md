@@ -7,6 +7,8 @@ tags:
 <center>
 <font size="8">Exploration Device Project<br>
 <font size="5">Team 202<br>
+<font size="5">*S.C.O.U.T.S*<br>
+<font size="4">*Super Cool Original and Unique Technology Systems*<br>  
 **Submission: January 18, 2026**<br>
 Spring - 2026<br>
 <font size="4">Arizona State University<br>
@@ -17,7 +19,7 @@ Dr. Nichols<br>
 </center>
 
 ## Team Introduction
-Team 202 is a group of engineering students who share a goal of designing a reliable and easy-to-use exploration rover tasked to sense surroundings for agricultural use. Each member supports a unique aspect of the rover model in which allows for wireless controlling and relaying various sensing data. The data projects the surrounding soil temperature, humidity, and pressure, as well as being equipped with a tilt sensor and metal detector. Through communication and creativity, we strive to develop a dependable exploration device that enables the user to observe and interact with challenging environments safely. 
+S.C.O.U.T.S (Super Cool Original and Unique Technology Systems) is a group of engineering students who share a goal of designing a reliable and easy-to-use exploration rover tasked to sense surroundings for agricultural use. Each member supports a unique aspect of the rover model in which allows for wireless controlling and relaying various sensing data. The data projects the surrounding soil temperature, humidity, and pressure, as well as being equipped with a tilt sensor and metal detector. Through communication and creativity, we strive to develop a dependable exploration device that enables the user to observe and interact with challenging environments safely. 
 
 
 ## Team Members Datasheet links
@@ -34,6 +36,7 @@ Team 202 is a group of engineering students who share a goal of designing a reli
 
 
 ## Page Index
+The links below provide a mobile browser friendly method of navigating the CropSCOUT data sheet.
 
 | **Page Links**        |
 | ---------------------- | 
