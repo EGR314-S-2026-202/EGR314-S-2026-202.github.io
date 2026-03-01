@@ -23,10 +23,10 @@ Below is our initial brainstorming spreadsheet that lists potential features, se
 
 ## Sort, Rank, and Group
 
-The listing below is of ideas sorted into 5 seperate groups:
+The listing below is of ideas sorted into 5 separate groups:
 ![sorted ideas list](images/sorted_ideas.png)
 
-The listing bleow is of the ideas in the groups ranked from most appealing/applicable to least appealing/applicable:
+The listing below is of the ideas in the groups ranked from most appealing/applicable to least appealing/applicable:
 ![ranked ideas list](images/ranked_ideas.png)
 
 ## Product Concept Designs
@@ -87,19 +87,19 @@ CropScout is built to be intuitive and easy to use, featuring clear icons, remot
 > Concept by Isaiah Johnston. View as a SVG [here](../02-Concept-Design/images/AGdrone.svg)
 </b>
 
-The Field Defender is made of a tough reinforced polymere designed to monitor and defend fields from rodents and fires. The Defender is equiped with a rotating turret contaning a fire extinguishing cannon and a .177 air powered pellet gun. Terrain maping is accomplished with 4 LiDAR cameras. The Defender has a retractable moisture sensor for routienly monitoring crops irrigation levels. Tank treads allow for zero point tunrning and mobilty through rough terrain. A camera, and thermal camera allow users to monitor activities day and night. The Defender can be piloted remotely using a PS2 controller and a display, or allow AI to run through user defined checks, routes and activities. The Defender is powered with a long lasting rechargable battery.
+The Field Defender is made of a tough reinforced polymer designed to monitor and defend fields from rodents and fires. The Defender is equipped with a rotating turret containing a fire extinguishing cannon and a .177 air-powered pellet gun. Terrain mapping is accomplished with 4 LiDAR cameras. The Defender has a retractable moisture sensor for routinely monitoring crop irrigation levels. Tank treads allow for zero-point turning and mobility through rough terrain. A camera and a thermal camera allow users to monitor activities day and night. The Defender can be piloted remotely using a PS2 controller and a display, or allow AI to run through user-defined checks, routes, and activities. The Defender is powered by a long-lasting rechargeable battery.
 
 These subsystems are arranged in the following manner:
 
 - Camera- Targeting system (pellet) (sensor)
-- Thermal camerar- Targeting (extinguisher)(sensor)
+- Thermal camera- Targeting (extinguisher)(sensor)
 - LiDAR- Terrain mapping (sensor)
 - Tank Wheele- Locomotion (Actuator)
 - Moisture sensor- Measure irrigation (sensor)
-- Sensor retraction- Move moisture sensor up and down (actuator)
+- Sensor retraction- Move the moisture sensor up and down (actuator)
 - Rechargeable battery- (power source)
 - PS2 controller (human machine interface)
-- Display- Displays data from the robot to the user via wifi (Two-way wireless comunication)
+- Display- Displays data from the robot to the user via wifi (Two-way wireless communication)
 
 ### Selected Concept: CropScout
 ![Annotaed CropScout Concept](../02-Concept-Design/images/CD_update.png)
