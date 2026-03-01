@@ -6,9 +6,9 @@ tags:
 
 ## Team Charter
 
-> S.C.O.U.T.S is a group that focuses on communication, responsibility, and efficiency. We want to work together to make a high-quality product that we can all be proud of.
+> S.C.O.U.T.S. is a group that focuses on communication, responsibility, and efficiency. We want to work together to make a high-quality product that we can all be proud of.
 
-To create this Charter, the team sat down and discussed each individula's top 3 goals and qualities they want to achive and demontrate. Characterizing the Charter in this group setting ensured that we all agreed on the Charter's content and the team's goals moving forward.
+To create this Charter, the team sat down and discussed each individual's top 3 goals and qualities they want to achieve and demonstrate. Characterizing the Charter in this group setting ensured that we all agreed on the Charter's content and the team's goals moving forward.
 
 ## Product Mission Statement
 
