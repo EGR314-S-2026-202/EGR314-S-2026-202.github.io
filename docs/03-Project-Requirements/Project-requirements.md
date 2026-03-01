@@ -34,7 +34,7 @@ title: Project Requirements
 
 ## Requirement Explanations
 - **TR-01:**  
-  This requirement ensures the rover can be remotely driven forward, backward, and turned by the user. Since the goal of CropScout is to explore agricultural fields without requiring the user to walk through them, basic mobility is essential. Forward and backward motion allows the rover to navigate rows, while turning enables it to avoid obstacles and reposition itself. This requirement supports all other system functions by allowing the rover to reach areas of interest.
+  This requirement ensures the rover can be remotely driven forward, backward, and turned by the user. Since the goal of CropScout is to explore agricultural fields without requiring the user to walk through them, basic mobility is essential. Forward and backward motion allow the rover to navigate rows, while turning enables it to avoid obstacles and reposition itself. This requirement supports all other system functions by allowing the rover to reach areas of interest.
 
 - **TR-02:**  
   CropScout is intended to operate in outdoor field environments where access to wall power is not available. Because of this, the system must run entirely on battery power for a reasonable amount of time. Establishing a minimum runtime ensures the rover can complete basic tasks, while a longer target runtime improves usability. This requirement also places constraints on subsystem power consumption and overall system design.
