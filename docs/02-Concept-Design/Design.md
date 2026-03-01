@@ -102,6 +102,6 @@ These subsystems are arranged in the following manner:
 - Display- Displays data from the robot to the user via wifi (Two-way wireless comunication)
 
 ### Selected Concept: CropScout
-![Annotaed CropScout Concept](../02-Concept-Design/images/selected.c.png)
+![Annotaed CropScout Concept](../02-Concept-Design/images/CD_update.png)
 
-We unanimously voted for the CropScout. There were many ideas across everyone’s concepts that we liked; however, we felt the CropScout was a well-rounded rover with conceivable ideas and helpful features that could make it a valuable tool for farmers. Adding the Surveyor’s remote-control feature would be a great addition to the CropScout concept. We discussed this over text by sharing our thoughts on all of the concepts that were presented.
+We unanimously voted for the CropScout. There were many ideas across everyone’s concepts that we liked; however, we felt the CropScout was a well-rounded rover with conceivable ideas and helpful features that could make it a valuable tool for farmers. Adding the Surveyor’s remote-control feature would be a great addition to the CropScout concept. After further discussion, we refined the design by removing some of the original CropScout features and replacing them with an accelerometer, a pressure sensor, and a metal detector to improve its overall functionality and field performance. We discussed this over text by sharing our thoughts on all of the concepts that were presented. 
