@@ -9,7 +9,7 @@ tags:
 <font size="5">Team 202<br>
 <font size="5">*S.C.O.U.T.S*<br>
 <font size="4">*Super Cool Original and Unique Technology Systems*<br>  
-**Submission: January 18, 2026**<br>
+**Submission: March 6, 2026**<br>
 Spring - 2026<br>
 <font size="4">Arizona State University<br>
 **EGR 314**<br>
@@ -44,3 +44,4 @@ The links below provide a mobile browser friendly method of navigating the CropS
 | [Concept Design](https://egr314-s-2026-202.github.io/02-Concept-Design/Design/) |
 | [Project Requirements](https://egr314-s-2026-202.github.io/03-Project-Requirements/Project-requirements/) |
 | [Team Block Diagram](https://egr314-s-2026-202.github.io/04-Team-Block-Diagram/Team-Diagram/) |
+| [Design Review Video](https://egr314-s-2026-202.github.io/05-Design-Review/design-review/) |

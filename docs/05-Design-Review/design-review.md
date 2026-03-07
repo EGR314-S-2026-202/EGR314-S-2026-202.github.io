@@ -4,6 +4,8 @@ title: Design Review
 
 ## External Design Review Team Presentation Video
 
+Please view the video below to watch our design review where we cover our team organization, concept selection, product requirements, and team block diagram.
+
 <iframe 
   width="800" 
   height="450"
