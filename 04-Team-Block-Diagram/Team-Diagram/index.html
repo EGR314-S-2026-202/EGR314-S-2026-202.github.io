@@ -869,6 +869,58 @@
 <table>
 <thead>
 <tr>
+<th>Number</th>
+<th>Message Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Broadcast</td>
+<td>The Broadcast Byte messages that go from anyone to everyone.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Bluetooth</td>
+<td>Any message regarding BT connection.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Wheels</td>
+<td>Messages regarding the wheel subsystem.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Accelerometer</td>
+<td>Messages regarding the accelerometer/pressure sensor subsystem.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Arm</td>
+<td>Messages regarding the front arm subsystem.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Temperature</td>
+<td>Messages regarding the temperature sensor.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Humidity</td>
+<td>Messages regarding the humidity sensor.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Metal</td>
+<td>Messages regarding the metal detection subsystem.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Type #</th>
 <th>Sending</th>
 <th>Receiving</th>
 <th>Message Data Type</th>
@@ -878,6 +930,7 @@
 </thead>
 <tbody>
 <tr>
+<td>2</td>
 <td>Wireless Communication</td>
 <td>HMI</td>
 <td>digital</td>
@@ -885,6 +938,7 @@
 <td>1 = Connected <br> 0 = Disconnected</td>
 </tr>
 <tr>
+<td>6</td>
 <td>Temp</td>
 <td>HMI</td>
 <td>string</td>
@@ -892,6 +946,7 @@
 <td>N/A</td>
 </tr>
 <tr>
+<td>7</td>
 <td>Humidity</td>
 <td>HMI</td>
 <td>string</td>
@@ -899,6 +954,7 @@
 <td>N/A</td>
 </tr>
 <tr>
+<td>4</td>
 <td>Accelerometer</td>
 <td>Front Arm</td>
 <td>digital</td>
@@ -906,6 +962,7 @@
 <td>1 for safe to continue 0 to indicate object impact</td>
 </tr>
 <tr>
+<td>5</td>
 <td>HMI / Wireless</td>
 <td>Front Arm</td>
 <td>int</td>
@@ -913,6 +970,7 @@
 <td>Used to rotate base stepper motor to specified position</td>
 </tr>
 <tr>
+<td>5</td>
 <td>Front Arm</td>
 <td>HMI / Wireless</td>
 <td>int</td>
@@ -920,6 +978,7 @@
 <td>Sent after motion completes to confirm position reached</td>
 </tr>
 <tr>
+<td>5</td>
 <td>Front Arm</td>
 <td>HMI</td>
 <td>string</td>
@@ -927,6 +986,7 @@
 <td>Indicates current state of actuator</td>
 </tr>
 <tr>
+<td>5</td>
 <td>Front Arm</td>
 <td>HMI / Wireless</td>
 <td>int</td>
@@ -934,6 +994,7 @@
 <td>0 = No Error, 1 = Stall, 2 = Overcurrent, etc.</td>
 </tr>
 <tr>
+<td>5</td>
 <td>HMI</td>
 <td>Front Arm</td>
 <td>digital</td>
@@ -941,6 +1002,7 @@
 <td>1 = Move, 0 = Stop</td>
 </tr>
 <tr>
+<td>3</td>
 <td>HMI</td>
 <td>Wheels</td>
 <td>2-bit int</td>
@@ -948,6 +1010,7 @@
 <td>Forward</td>
 </tr>
 <tr>
+<td>3</td>
 <td>HMI</td>
 <td>Wheels</td>
 <td>2-bit int</td>
@@ -955,6 +1018,7 @@
 <td>Backward</td>
 </tr>
 <tr>
+<td>3</td>
 <td>HMI</td>
 <td>Wheels</td>
 <td>2-bit int</td>
@@ -962,6 +1026,7 @@
 <td>Right</td>
 </tr>
 <tr>
+<td>3</td>
 <td>HMI</td>
 <td>Wheels</td>
 <td>2-bit int</td>
@@ -969,6 +1034,7 @@
 <td>Left</td>
 </tr>
 <tr>
+<td>6</td>
 <td>HMI</td>
 <td>Temp</td>
 <td>digital</td>
@@ -976,6 +1042,7 @@
 <td>1 = Send reading <br> 0 = Nothing</td>
 </tr>
 <tr>
+<td>7</td>
 <td>HMI</td>
 <td>Humidity</td>
 <td>digital</td>
@@ -983,6 +1050,7 @@
 <td>1 = Send reading <br> 0 = Nothing</td>
 </tr>
 <tr>
+<td>4</td>
 <td>HMI</td>
 <td>Accelerometer</td>
 <td>digital</td>
@@ -990,6 +1058,7 @@
 <td>1 = Send reading <br> 0 = Nothing</td>
 </tr>
 <tr>
+<td>4</td>
 <td>HMI</td>
 <td>Pressure Sensor</td>
 <td>digital</td>
@@ -997,6 +1066,7 @@
 <td>1 = Send reading <br> 0 = Nothing</td>
 </tr>
 <tr>
+<td>8</td>
 <td>HMI</td>
 <td>Metal Detector</td>
 <td>digital</td>
