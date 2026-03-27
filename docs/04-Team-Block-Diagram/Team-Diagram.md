@@ -22,24 +22,35 @@ Below is the Communication Process Diagram, which details a couple of use cases 
 
 Below is a table of the types of messages that will be sent between our subsystems. This table is subject to change as we learn more about each of our individual subsystems, but the general ideas shown below should remain consistent.
 
-| Sending                | Receiving       | Message Data Type | Message      | Notes/Details                                           |
-| ---------------------- | --------------- | ----------------- | ------------ | ------------------------------------------------------- |
-| Wireless Communication | HMI             | digital           | BT_STATUS    | 1 = Connected <br> 0 = Disconnected                     |
-| Temp                   | HMI             | string            | “X℃/℉”      | N/A                                                     |
-| Humidity               | HMI             | string            | “X% RH”      | N/A                                                     |
-| Accelerometer          | Front Arm       | digital           | “1” or “0”   | 1 for safe to continue 0 to indicate object impact      |
-| HMI / Wireless         | Front Arm       | int               | SET_POSITION | Used to rotate base stepper motor to specified position |
-| Front Arm              | HMI / Wireless  | int               | ACK_POSITION | Sent after motion completes to confirm position reached |
-| Front Arm              | HMI             | string            | ARM_STATUS   | Indicates current state of actuator                     |
-| Front Arm              | HMI / Wireless  | int               | ARM_ERROR    | 0 = No Error, 1 = Stall, 2 = Overcurrent, etc.          |
-| HMI                    | Front Arm       | digital           | JOG_ENABLE   | 1 = Move, 0 = Stop                                      |
-| HMI                    | Wheels          | 2-bit int         | 11           | Forward                                                 |
-| HMI                    | Wheels          | 2-bit int         | 00           | Backward                                                |
-| HMI                    | Wheels          | 2-bit int         | 01           | Right                                                   |
-| HMI                    | Wheels          | 2-bit int         | 10           | Left                                                    |
-| HMI                    | Temp            | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
-| HMI                    | Humidity        | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
-| HMI                    | Accelerometer   | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
-| HMI                    | Pressure Sensor | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
-| HMI                    | Metal Detector  | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
+| Number | Message Type   | Description                                                                                  |
+|--------|----------------|----------------------------------------------------------------------------------------------|
+| 1      | Broadcast      | The Broadcast Byte messages that go from anyone to everyone.                                 |
+| 2      | Bluetooth      | Any message regarding BT connection.                                                         |
+| 3      | Wheels         | Messages regarding the wheel subsystem.                                                      |
+| 4      | Accelerometer  | Messages regarding the accelerometer/pressure sensor subsystem.                              |
+| 5      | Arm            | Messages regarding the front arm subsystem.                                                  |
+| 6      | Temperature    | Messages regarding the temperature sensor.                                                   |
+| 7      | Humidity       | Messages regarding the humidity sensor.                                                      |
+| 8      | Metal          | Messages regarding the metal detection subsystem.                                            |
+
+| Type # | Sending                | Receiving       | Message Data Type | Message      | Notes/Details                                           |
+|--------|------------------------|-----------------|-------------------|--------------|---------------------------------------------------------|
+| 2      | Wireless Communication | HMI             | digital           | BT_STATUS    | 1 = Connected <br> 0 = Disconnected                     |
+| 6      | Temp                   | HMI             | string            | “X℃/℉”      | N/A                                                     |
+| 7      | Humidity               | HMI             | string            | “X% RH”      | N/A                                                     |
+| 4      | Accelerometer          | Front Arm       | digital           | “1” or “0”   | 1 for safe to continue 0 to indicate object impact      |
+| 5      | HMI / Wireless         | Front Arm       | int               | SET_POSITION | Used to rotate base stepper motor to specified position |
+| 5      | Front Arm              | HMI / Wireless  | int               | ACK_POSITION | Sent after motion completes to confirm position reached |
+| 5      | Front Arm              | HMI             | string            | ARM_STATUS   | Indicates current state of actuator                     |
+| 5      | Front Arm              | HMI / Wireless  | int               | ARM_ERROR    | 0 = No Error, 1 = Stall, 2 = Overcurrent, etc.          |
+| 5      | HMI                    | Front Arm       | digital           | JOG_ENABLE   | 1 = Move, 0 = Stop                                      |
+| 3      | HMI                    | Wheels          | 2-bit int         | 11           | Forward                                                 |
+| 3      | HMI                    | Wheels          | 2-bit int         | 00           | Backward                                                |
+| 3      | HMI                    | Wheels          | 2-bit int         | 01           | Right                                                   |
+| 3      | HMI                    | Wheels          | 2-bit int         | 10           | Left                                                    |
+| 6      | HMI                    | Temp            | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
+| 7      | HMI                    | Humidity        | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
+| 4      | HMI                    | Accelerometer   | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
+| 4      | HMI                    | Pressure Sensor | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
+| 8      | HMI                    | Metal Detector  | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
 
