@@ -5,7 +5,8 @@ tags:
 - tag2
 ---
 <center>
-<font size="8">Exploration Device Project<br>
+<font size="8">Exploration Device Project:<br>
+<font size="7">CropSCOUT<br>
 <font size="5">Team 202<br>
 <font size="5">*S.C.O.U.T.S*<br>
 <font size="4">*Super Cool Original and Unique Technology Systems*<br>  
