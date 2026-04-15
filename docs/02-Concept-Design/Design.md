@@ -56,7 +56,7 @@ This device would be designed with our users' understandability in mind. It woul
 
 ### CropScout
 ![CropScout Concept](../02-Concept-Design/images/Cropscout_cropped.png)
-> Concept by Cristopher G E. View as a PDF [here](../02-Concept-Design/images/Cropscout.pdf)
+> Concept by Cristopher G E. View as a PDF [here](../02-Concept-Design/images/Cropscout.pdf) download SolidWorks CAD zip file [here](../02-Concept-Design/CAD-models/A_WALLE.zip)
 </b>
 
 CropScout is a rugged, weather-resistant rover built to help monitor crops and assess field conditions. It gathers data on crops and their environment using a multi-purpose probe mounted on a movable front arm. This probe measures ambient temperature, humidity, and soil pH, with pH readings taken using a glass electrode and a custom analog signal-conditioning circuit.
