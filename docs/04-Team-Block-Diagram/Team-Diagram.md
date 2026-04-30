@@ -32,28 +32,28 @@ Below is a table of the types of messages that will be sent between our subsyste
 | 7      | Humidity       | Messages regarding the humidity sensor.                                                      |
 | 8      | Metal          | Messages regarding the metal detection subsystem.                                            |
 
-Below is a table of the types of messages that will be sent between our subsystems. This table is subject to change as we learn more about each of our individual subsystems, but the general ideas shown below should remain consistent.
+Below is a table detailing our team's full Application Programming Interface (API), showcasing every message with relevant information for each. Each message falls into one of the message types above to indicate its type. To see more on the API, please view each teammate's individual datasheet and view the "API" page for a comprehensive description.
 
-| Type # | Sending                | Receiving       | Message Data Type | Message      | Notes/Details                                           |
-|--------|------------------------|-----------------|-------------------|--------------|---------------------------------------------------------|
-| 2      | Wireless Communication | HMI             | digital           | BT_STATUS    | 1 = Connected <br> 0 = Disconnected                     |
-| 6      | Temp                   | HMI             | string            | “X℃/℉”      | N/A                                                     |
-| 7      | Humidity               | HMI             | string            | “X% RH”      | N/A                                                     |
-| 4      | Accelerometer          | Front Arm       | digital           | “1” or “0”   | 1 for safe to continue 0 to indicate object impact      |
-| 5      | HMI / Wireless         | Front Arm       | int               | SET_POSITION | Used to rotate base stepper motor to specified position |
-| 5      | Front Arm              | HMI / Wireless  | int               | ACK_POSITION | Sent after motion completes to confirm position reached |
-| 5      | Front Arm              | HMI             | string            | ARM_STATUS   | Indicates current state of actuator                     |
-| 5      | Front Arm              | HMI / Wireless  | int               | ARM_ERROR    | 0 = No Error, 1 = Stall, 2 = Overcurrent, etc.          |
-| 5      | HMI                    | Front Arm       | digital           | JOG_ENABLE   | 1 = Move, 0 = Stop                                      |
-| 3      | HMI                    | Wheels          | 2-bit int         | 11           | Forward                                                 |
-| 3      | HMI                    | Wheels          | 2-bit int         | 00           | Backward                                                |
-| 3      | HMI                    | Wheels          | 2-bit int         | 01           | Right                                                   |
-| 3      | HMI                    | Wheels          | 2-bit int         | 10           | Left                                                    |
-| 6      | HMI                    | Temp            | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
-| 7      | HMI                    | Humidity        | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
-| 4      | HMI                    | Accelerometer   | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
-| 4      | HMI                    | Pressure Sensor | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
-| 8      | HMI                    | Metal Detector  | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
+| Source        | Destination | Message Type | Message Name            | Data Type        | Message Data                  | Notes                                      |
+|---------------|-------------|--------------|-------------------------|------------------|-------------------------------|--------------------------------------------|
+| HMI           | Broadcast   | 1            | Start Broadcast         | String           | Start                         | Sent to everyone; initiates system         |
+| HMI           | Wheels      | 3            | Wheel Drive Mode        | String           | F / B / R / L                 | Forward, Back, Right, Left                 |
+| HMI           | Pressure    | 4            | Get Accelerometer       | String           | Read                          | Requests accelerometer reading             |
+| HMI           | Arm         | 5            | Arm Drive Mode          | String           | U / D / R / L                 | Up, Down, Right, Left                      |
+| HMI           | Metal Det.  | 8            | Metal Detector Read     | String           | Read                          | Requests metal detector reading            |
+| HMI           | Temp/Hum.   | 6            | Temperature Reading     | String           | Read                          | Requests temperature reading               |
+| HMI           | Temp/Hum.   | 6            | Temperature Unit Change | String           | F / C                         | Switch between Fahrenheit and Celsius      |
+| HMI           | Temp/Hum.   | 7            | Humidity Reading        | String           | Read                          | Requests humidity reading                  |
+| Communication | Wheels      | 2            | BT Connection Check     | String           | check                         | Checks Bluetooth connection status         |
+| Temp/Hum.     | HMI         | 6            | Send Temperature        | Float, String    | -50–200, C / F                | Two tokens; value and unit indicator       |
+| Temp/Hum.     | HMI         | 7            | Send Humidity           | Float            | 0–100                         | Humidity percentage                        |
+| Pressure      | HMI         | 4            | Send Accelerometer      | Float            | 0–100                         | Accelerometer value                        |
+| Pressure      | Arm         | 5            | Arm Clear Signal        | Integer (8-bit)  | 00 / 01                       | 00 = not clear, 01 = clear                 |
+| Metal Det.    | HMI         | 8            | Metal Detector Relay    | String           | T / F                         | T = detected, F = not detected             |
+| Wheels        | Comm.       | 2            | BT Connection Reply     | String           | T / F                         | T = connected, F = not connected           |
+| Arm           | HMI         | 5            | Arm Position Ack.       | Integer (16-bit) | -180–180                      | Arm angle in degrees                       |
+| Arm           | HMI         | 5            | Arm Status              | String           | Idle / Moving / Done / Halted | Current arm state                          |
+| Arm           | HMI         | 5            | Arm Error               | Integer (8-bit)  | 0–3                           | Error code            |
 
 ## Communication Sequence Functionality
 The purpose of of the communication diagram is to depict the interaction between the subsystems and the input from the user. It satifies the user needs by handling the message input and passing it along the connection line. When a message reaches its designated subsytem, the subsystem will interact with the original input message and output a response message if needed in which gets sent down the chain which is then recieved by its targetted subsystem to give some output to the user.
