@@ -4,7 +4,7 @@ repo_url: https://github.com/EGR314-S-2026-202/EGR314-S-2026-202.github.io
 edit_uri: edit/main/docs/
 theme:
   name: material
-  custom_dir: custom_theme/
+  custom_dir: custom_theme/partials
   palette:
     primary: blue
     accent: indigo
@@ -16,6 +16,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.tabs.overflow
     - toc.follow    
     - navigation.top
     - navigation.path
@@ -24,7 +25,7 @@ theme:
     - content.action.edit
     - navigation.footer
 #    - navigation.sections
-#    - navigation.expand
+    - navigation.expand
 #    - navigation.instant # doesn't work that well
 
 markdown_extensions:
@@ -67,3 +68,16 @@ extra:
     - icon: fontawesome/regular/file-code
       link: /2023_fall
       name: 2023 Site    
+
+nav:
+  - Welcome: index.md
+  - Organization: 01-Organization/Team-Organization.md
+  - Concept Design: 02-Concept-Design/Design.md
+  - Project Requirements: 03-Project-Requirements/Project-requirements.md
+  - Team Block Diagram: 04-Team-Block-Diagram/Team-Diagram.md
+  - Design Review: 05-Design-Review/design-review.md
+  - Showcase Demonstration: 06-Showcase-Demonstration/Showcase.md
+  - Project Reflection: 07-Project-Reflection/Reflection.md
+  - Resources: 08-Resources/Resources.md
+  - Appendix: Appendix/appendix.md
+    - Extra Team Organization Information: 01-Organization-Information/Append-Organization.md
