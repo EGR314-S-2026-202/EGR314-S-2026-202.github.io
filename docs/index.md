@@ -22,6 +22,11 @@ Dr. Nichols<br>
 ## Team Introduction
 S.C.O.U.T.S (Super Cool Original and Unique Technology Systems) is a group of engineering students who share a goal of designing a reliable and easy-to-use exploration rover tasked to sense surroundings for agricultural use. Each member supports a unique aspect of the rover model in which allows for wireless controlling and relaying various sensing data. The data projects the surrounding soil temperature, humidity, and pressure, as well as being equipped with a tilt sensor and metal detector. Through communication and creativity, we strive to develop a dependable exploration device that enables the user to observe and interact with challenging environments safely. 
 
+## Project Summary
+The CropSCOUT's final assembly incorporated 5 out of 7 working subsystems, leaving out the accelerometer and metal detection systems. The CropSCOUT is powered using a 12V battery 
+
+## Figure 1: Final Project Picture
+![Final Project Picture]()
 
 ## Team Members Datasheet links
 
