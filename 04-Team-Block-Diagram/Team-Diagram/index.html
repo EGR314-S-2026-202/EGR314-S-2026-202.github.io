@@ -321,6 +321,66 @@
     
     
       <li class="md-tabs__item">
+        <a href="../../06-Showcase-Demostration/Showcase/" class="md-tabs__link">
+          
+  
+    
+  
+  06 Showcase Demostration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../07-Project-Reflection/Reflection/" class="md-tabs__link">
+          
+  
+    
+  
+  07 Project Reflection
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../08-Resources/Resources/" class="md-tabs__link">
+          
+  
+    
+  
+  08 Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
         <a href="../../Appendix/appendix/" class="md-tabs__link">
           
   
@@ -666,6 +726,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#communication-sequence-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Communication Sequence Functionality
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-changes-post-software-proposal" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 Changes Post Software Proposal
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -714,6 +801,144 @@
   
   <span class="md-ellipsis">
     05 Design Review
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../06-Showcase-Demostration/Showcase/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    06 Showcase Demostration
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../07-Project-Reflection/Reflection/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    07 Project Reflection
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../08-Resources/Resources/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    08 Resources
   </span>
   
 
@@ -822,6 +1047,33 @@
   <a href="#message-types" class="md-nav__link">
     <span class="md-ellipsis">
       Message Types
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#communication-sequence-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Communication Sequence Functionality
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-changes-post-software-proposal" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 Changes Post Software Proposal
     </span>
   </a>
   
@@ -1076,6 +1328,28 @@
 </tr>
 </tbody>
 </table>
+<h2 id="communication-sequence-functionality">Communication Sequence Functionality</h2>
+<p>The purpose of of the communication diagram is to depict the interaction between the subsystems and the input from the user. It satifies the user needs by handling the message input and passing it along the connection line. When a message reaches its designated subsytem, the subsystem will interact with the original input message and output a response message if needed in which gets sent down the chain which is then recieved by its targetted subsystem to give some output to the user.</p>
+<p>An example of the communication structure follows this structure:
+1) if the user presses a button on the HMI subsystem to raise the arm 
+2) The HMI subsystem occupying the button would send a message out to the Arm subsystem which is passed by other subsystems. 
+3) The arm subsystem recieves the message to raise its arm and would therefore raises its arm.
+4) The arm subsystem trashes the original input message and outputs a position acknowledgement message targeting back to the HMI subsystem. 
+5) That output message gets passed by the other subsystems and is recieved by the intended HMI subsystem.
+6) The HMI subsystem would handle that message and therefore update its OLED screen for the user to see and trash the output message.
+7) As a result, the user has the raise arm function carried out and is able to see verification that the OLED recognizes the position change.</p>
+<h2 id="message-structure">Message Structure</h2>
+<p>The design of the message outlines where the message came from (the source), who its for (the destination), the varible associated with that message, the data type of that message, and the message related to that variable. A varible is connected with a colon while additional varibles are seperated with a semicolon. A valid message would also start with AZ and end with YB. </p>
+<p>An example of a valid message would be AZthTV:F:75.256;TT:S:F;YB
+- This is a message from the Temperature subsystem to the HMI syubsystem which calls for the temperature value as a float type and the temperature unit as a string with its corresponding values per varible.</p>
+<h2 id="5-changes-post-software-proposal">5 Changes Post Software Proposal</h2>
+<ol>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ol>
 
 
 
