@@ -4,7 +4,7 @@ title: Block Diagram, Process Diagram, and Message Structure
 
 ## Team Block Diagram
 
-Below is the Block Diagram we created as a team. We followed the Daisy Chain format, using 8-pin ribbon connectors, to allow communication between all subsystems via UART and digital signals. There are two sections in our diagram: the rover section (on the right) and the controller section (on the left). It made sense to split the block diagrams this way, as the rover and the controller will be two separate modules that comprise the entire system. Both sections include Daisy Chain communications and will connect wirelessly using Bluetooth.
+Below is the Block Diagram we created as a team. We followed the Daisy Chain format, using 8-pin ribbon connectors, to allow communication between all subsystems via UART and digital signals. There are two sections in our diagram: the rover section (on the right) and the controller section (on the left). It made sense to split the block diagrams this way, as the rover and the controller will be two separate modules that comprise the entire system. Both sections include Daisy Chain communications and will connect wirelessly using an MQTT server from Wi-Fi connection.
 
 ![Team Block Diagram](TBDV2.png)
 
@@ -24,7 +24,7 @@ Below is a table of the types of messages that will be sent between our subsyste
 | Number | Message Type   | Description                                                                                  |
 |--------|----------------|----------------------------------------------------------------------------------------------|
 | 1      | Broadcast      | The Broadcast Byte messages that go from anyone to everyone.                                 |
-| 2      | Bluetooth      | Any message regarding BT connection.                                                         |
+| 2      | Wireless       | Any message regarding wireless connection.                                                   |
 | 3      | Wheels         | Messages regarding the wheel subsystem.                                                      |
 | 4      | Accelerometer  | Messages regarding the accelerometer/pressure sensor subsystem.                              |
 | 5      | Arm            | Messages regarding the front arm subsystem.                                                  |
@@ -44,7 +44,7 @@ Below is a table detailing our team's full Application Programming Interface (AP
 | HMI           | Temp/Hum.   | 6            | Temperature Reading     | String           | Read                          | Requests temperature reading               |
 | HMI           | Temp/Hum.   | 6            | Temperature Unit Change | String           | F / C                         | Switch between Fahrenheit and Celsius      |
 | HMI           | Temp/Hum.   | 7            | Humidity Reading        | String           | Read                          | Requests humidity reading                  |
-| Communication | Wheels      | 2            | BT Connection Check     | String           | check                         | Checks Bluetooth connection status         |
+| Communication | Wheels      | 2            | BT Connection Check     | String           | check                         | Checks MQTT connection status         |
 | Temp/Hum.     | HMI         | 6            | Send Temperature        | Float, String    | -50–200, C / F                | Two tokens; value and unit indicator       |
 | Temp/Hum.     | HMI         | 7            | Send Humidity           | Float            | 0–100                         | Humidity percentage                        |
 | Pressure      | HMI         | 4            | Send Accelerometer      | Float            | 0–100                         | Accelerometer value                        |
@@ -56,22 +56,22 @@ Below is a table detailing our team's full Application Programming Interface (AP
 | Arm           | HMI         | 5            | Arm Error               | Integer (8-bit)  | 0–3                           | Error code            |
 
 ## Communication Sequence Functionality
-The purpose of of the communication diagram is to depict the interaction between the subsystems and the input from the user. It satifies the user needs by handling the message input and passing it along the connection line. When a message reaches its designated subsytem, the subsystem will interact with the original input message and output a response message if needed in which gets sent down the chain which is then recieved by its targetted subsystem to give some output to the user.
+The purpose of the communication diagram is to depict the interaction between the subsystems and the user's input. It satisfies the user's needs by handling the message input and passing it along the connection line. When a message reaches its designated subsystem, the subsystem interacts with the original input message and, if needed, outputs a response message, which is then sent down the chain and received by its targeted subsystem to provide output to the user.
 
 An example of the communication structure follows this structure:
-1) if the user presses a button on the HMI subsystem to raise the arm 
-2) The HMI subsystem occupying the button would send a message out to the Arm subsystem which is passed by other subsystems. 
-3) The arm subsystem recieves the message to raise its arm and would therefore raises its arm.
-4) The arm subsystem trashes the original input message and outputs a position acknowledgement message targeting back to the HMI subsystem. 
-5) That output message gets passed by the other subsystems and is recieved by the intended HMI subsystem.
+1) If the user presses a button on the HMI subsystem to raise the arm 
+2) The HMI subsystem occupying the button would send a message out to the Arm subsystem, which is passed by other subsystems. 
+3) The arm subsystem receives the message to raise its arm and would therefore raise its arm.
+4) The arm subsystem trashes the original input message and outputs a position acknowledgment message targeting back to the HMI subsystem. 
+5) That output message gets passed by the other subsystems and is received by the intended HMI subsystem.
 6) The HMI subsystem would handle that message and therefore update its OLED screen for the user to see and trash the output message.
 7) As a result, the user has the raise arm function carried out and is able to see verification that the OLED recognizes the position change.
 
 ## Message Structure
-The design of the message outlines where the message came from (the source), who its for (the destination), the varible associated with that message, the data type of that message, and the message related to that variable. A varible is connected with a colon while additional varibles are seperated with a semicolon. A valid message would also start with AZ and end with YB. 
+The design of the message outlines where the message came from (the source), who it's for (the destination), the variable associated with that message, the data type of that message, and the message related to that variable. A variable is connected with a colon, while additional variables are separated with a semicolon. A valid message would also start with AZ and end with YB. 
 
 An example of a valid message would be AZthTV:F:75.256;TT:S:F;YB
-- This is a message from the Temperature subsystem to the HMI syubsystem which calls for the temperature value as a float type and the temperature unit as a string with its corresponding values per varible.
+- This is a message from the Temperature subsystem to the HMI subsystem, which calls for the temperature value as a float type and the temperature unit as a string with its corresponding values per variable.
 
 ## 5 Changes Post Software Proposal
 
