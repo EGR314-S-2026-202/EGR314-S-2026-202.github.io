@@ -55,3 +55,32 @@ Below is a table of the types of messages that will be sent between our subsyste
 | 4      | HMI                    | Pressure Sensor | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
 | 8      | HMI                    | Metal Detector  | digital           | 1            | 1 = Send reading <br> 0 = Nothing                       |
 
+## Communication Sequence Functionality
+The purpose of of the communication diagram is to depict the interaction between the subsystems and the input from the user. It satifies the user needs by handling the message input and passing it along the connection line. When a message reaches its designated subsytem, the subsystem will interact with the original input message and output a response message if needed in which gets sent down the chain which is then recieved by its targetted subsystem to give some output to the user.
+
+An example of the communication structure follows this structure:
+1) if the user presses a button on the HMI subsystem to raise the arm 
+2) The HMI subsystem occupying the button would send a message out to the Arm subsystem which is passed by other subsystems. 
+3) The arm subsystem recieves the message to raise its arm and would therefore raises its arm.
+4) The arm subsystem trashes the original input message and outputs a position acknowledgement message targeting back to the HMI subsystem. 
+5) That output message gets passed by the other subsystems and is recieved by the intended HMI subsystem.
+6) The HMI subsystem would handle that message and therefore update its OLED screen for the user to see and trash the output message.
+7) As a result, the user has the raise arm function carried out and is able to see verification that the OLED recognizes the position change.
+
+## Message Structure
+The design of the message outlines where the message came from (the source), who its for (the destination), the varible associated with that message, the data type of that message, and the message related to that variable. A varible is connected with a colon while additional varibles are seperated with a semicolon. A valid message would also start with AZ and end with YB. 
+
+An example of a valid message would be AZthTV:F:75.256;TT:S:F;YB
+- This is a message from the Temperature subsystem to the HMI syubsystem which calls for the temperature value as a float type and the temperature unit as a string with its corresponding values per varible.
+
+## 5 Changes Post Software Proposal
+
+1. 
+
+2. 
+
+3. 
+
+4. 
+
+5. 
