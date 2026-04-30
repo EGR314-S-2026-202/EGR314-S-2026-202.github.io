@@ -79,6 +79,7 @@ nav:
   - Showcase Demonstration: 06-Showcase-Demonstration/Showcase.md
   - Project Reflection: 07-Project-Reflection/Reflection.md
   - Resources: 08-Resources/Resources.md
-  - Appendix: Appendix/appendix.md
-    #- Extra Team Organization Information: 01-Organization-Information/Append-Organization.md
+  - Appendix:
+    - Overview: Appendix/appendix.md
+    - Extra Team Organization Information: 01-Organization-Information/Append-Organization.md
     
