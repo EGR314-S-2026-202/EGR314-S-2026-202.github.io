@@ -1169,162 +1169,181 @@
 </tr>
 </tbody>
 </table>
-<p>Below is a table of the types of messages that will be sent between our subsystems. This table is subject to change as we learn more about each of our individual subsystems, but the general ideas shown below should remain consistent.</p>
+<p>Below is a table detailing our team's full Application Programming Interface (API), showcasing every message with relevant information for each. Each message falls into one of the message types above to indicate its type. To see more on the API, please view each teammate's individual datasheet and view the "API" page for a comprehensive description.</p>
 <table>
 <thead>
 <tr>
-<th>Type #</th>
-<th>Sending</th>
-<th>Receiving</th>
-<th>Message Data Type</th>
-<th>Message</th>
-<th>Notes/Details</th>
+<th>Source</th>
+<th>Destination</th>
+<th>Message Type</th>
+<th>Message Name</th>
+<th>Data Type</th>
+<th>Message Data</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2</td>
-<td>Wireless Communication</td>
 <td>HMI</td>
-<td>digital</td>
-<td>BT_STATUS</td>
-<td>1 = Connected <br> 0 = Disconnected</td>
+<td>Broadcast</td>
+<td>1</td>
+<td>Start Broadcast</td>
+<td>String</td>
+<td>Start</td>
+<td>Sent to everyone; initiates system</td>
 </tr>
 <tr>
-<td>6</td>
-<td>Temp</td>
 <td>HMI</td>
-<td>string</td>
-<td>“X℃/℉”</td>
-<td>N/A</td>
+<td>Wheels</td>
+<td>3</td>
+<td>Wheel Drive Mode</td>
+<td>String</td>
+<td>F / B / R / L</td>
+<td>Forward, Back, Right, Left</td>
 </tr>
 <tr>
-<td>7</td>
-<td>Humidity</td>
 <td>HMI</td>
-<td>string</td>
-<td>“X% RH”</td>
-<td>N/A</td>
-</tr>
-<tr>
+<td>Pressure</td>
 <td>4</td>
-<td>Accelerometer</td>
-<td>Front Arm</td>
-<td>digital</td>
-<td>“1” or “0”</td>
-<td>1 for safe to continue 0 to indicate object impact</td>
+<td>Get Accelerometer</td>
+<td>String</td>
+<td>Read</td>
+<td>Requests accelerometer reading</td>
 </tr>
 <tr>
+<td>HMI</td>
+<td>Arm</td>
 <td>5</td>
-<td>HMI / Wireless</td>
-<td>Front Arm</td>
-<td>int</td>
-<td>SET_POSITION</td>
-<td>Used to rotate base stepper motor to specified position</td>
+<td>Arm Drive Mode</td>
+<td>String</td>
+<td>U / D / R / L</td>
+<td>Up, Down, Right, Left</td>
 </tr>
 <tr>
-<td>5</td>
-<td>Front Arm</td>
-<td>HMI / Wireless</td>
-<td>int</td>
-<td>ACK_POSITION</td>
-<td>Sent after motion completes to confirm position reached</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Front Arm</td>
 <td>HMI</td>
-<td>string</td>
-<td>ARM_STATUS</td>
-<td>Indicates current state of actuator</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Front Arm</td>
-<td>HMI / Wireless</td>
-<td>int</td>
-<td>ARM_ERROR</td>
-<td>0 = No Error, 1 = Stall, 2 = Overcurrent, etc.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>HMI</td>
-<td>Front Arm</td>
-<td>digital</td>
-<td>JOG_ENABLE</td>
-<td>1 = Move, 0 = Stop</td>
-</tr>
-<tr>
-<td>3</td>
-<td>HMI</td>
-<td>Wheels</td>
-<td>2-bit int</td>
-<td>11</td>
-<td>Forward</td>
-</tr>
-<tr>
-<td>3</td>
-<td>HMI</td>
-<td>Wheels</td>
-<td>2-bit int</td>
-<td>00</td>
-<td>Backward</td>
-</tr>
-<tr>
-<td>3</td>
-<td>HMI</td>
-<td>Wheels</td>
-<td>2-bit int</td>
-<td>01</td>
-<td>Right</td>
-</tr>
-<tr>
-<td>3</td>
-<td>HMI</td>
-<td>Wheels</td>
-<td>2-bit int</td>
-<td>10</td>
-<td>Left</td>
-</tr>
-<tr>
-<td>6</td>
-<td>HMI</td>
-<td>Temp</td>
-<td>digital</td>
-<td>1</td>
-<td>1 = Send reading <br> 0 = Nothing</td>
-</tr>
-<tr>
-<td>7</td>
-<td>HMI</td>
-<td>Humidity</td>
-<td>digital</td>
-<td>1</td>
-<td>1 = Send reading <br> 0 = Nothing</td>
-</tr>
-<tr>
-<td>4</td>
-<td>HMI</td>
-<td>Accelerometer</td>
-<td>digital</td>
-<td>1</td>
-<td>1 = Send reading <br> 0 = Nothing</td>
-</tr>
-<tr>
-<td>4</td>
-<td>HMI</td>
-<td>Pressure Sensor</td>
-<td>digital</td>
-<td>1</td>
-<td>1 = Send reading <br> 0 = Nothing</td>
-</tr>
-<tr>
+<td>Metal Det.</td>
 <td>8</td>
+<td>Metal Detector Read</td>
+<td>String</td>
+<td>Read</td>
+<td>Requests metal detector reading</td>
+</tr>
+<tr>
 <td>HMI</td>
-<td>Metal Detector</td>
-<td>digital</td>
-<td>1</td>
-<td>1 = Send reading <br> 0 = Nothing</td>
+<td>Temp/Hum.</td>
+<td>6</td>
+<td>Temperature Reading</td>
+<td>String</td>
+<td>Read</td>
+<td>Requests temperature reading</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Temp/Hum.</td>
+<td>6</td>
+<td>Temperature Unit Change</td>
+<td>String</td>
+<td>F / C</td>
+<td>Switch between Fahrenheit and Celsius</td>
+</tr>
+<tr>
+<td>HMI</td>
+<td>Temp/Hum.</td>
+<td>7</td>
+<td>Humidity Reading</td>
+<td>String</td>
+<td>Read</td>
+<td>Requests humidity reading</td>
+</tr>
+<tr>
+<td>Communication</td>
+<td>Wheels</td>
+<td>2</td>
+<td>BT Connection Check</td>
+<td>String</td>
+<td>check</td>
+<td>Checks Bluetooth connection status</td>
+</tr>
+<tr>
+<td>Temp/Hum.</td>
+<td>HMI</td>
+<td>6</td>
+<td>Send Temperature</td>
+<td>Float, String</td>
+<td>-50–200, C / F</td>
+<td>Two tokens; value and unit indicator</td>
+</tr>
+<tr>
+<td>Temp/Hum.</td>
+<td>HMI</td>
+<td>7</td>
+<td>Send Humidity</td>
+<td>Float</td>
+<td>0–100</td>
+<td>Humidity percentage</td>
+</tr>
+<tr>
+<td>Pressure</td>
+<td>HMI</td>
+<td>4</td>
+<td>Send Accelerometer</td>
+<td>Float</td>
+<td>0–100</td>
+<td>Accelerometer value</td>
+</tr>
+<tr>
+<td>Pressure</td>
+<td>Arm</td>
+<td>5</td>
+<td>Arm Clear Signal</td>
+<td>Integer (8-bit)</td>
+<td>00 / 01</td>
+<td>00 = not clear, 01 = clear</td>
+</tr>
+<tr>
+<td>Metal Det.</td>
+<td>HMI</td>
+<td>8</td>
+<td>Metal Detector Relay</td>
+<td>String</td>
+<td>T / F</td>
+<td>T = detected, F = not detected</td>
+</tr>
+<tr>
+<td>Wheels</td>
+<td>Comm.</td>
+<td>2</td>
+<td>BT Connection Reply</td>
+<td>String</td>
+<td>T / F</td>
+<td>T = connected, F = not connected</td>
+</tr>
+<tr>
+<td>Arm</td>
+<td>HMI</td>
+<td>5</td>
+<td>Arm Position Ack.</td>
+<td>Integer (16-bit)</td>
+<td>-180–180</td>
+<td>Arm angle in degrees</td>
+</tr>
+<tr>
+<td>Arm</td>
+<td>HMI</td>
+<td>5</td>
+<td>Arm Status</td>
+<td>String</td>
+<td>Idle / Moving / Done / Halted</td>
+<td>Current arm state</td>
+</tr>
+<tr>
+<td>Arm</td>
+<td>HMI</td>
+<td>5</td>
+<td>Arm Error</td>
+<td>Integer (8-bit)</td>
+<td>0–3</td>
+<td>Error code</td>
 </tr>
 </tbody>
 </table>
