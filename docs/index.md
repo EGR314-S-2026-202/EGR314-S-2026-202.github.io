@@ -5,12 +5,12 @@ tags:
 - tag2
 ---
 <center>
-<font size="8">Exploration Device Project:<br>
-<font size="7">CropSCOUT<br>
-<font size="5">Team 202<br>
-<font size="5">*S.C.O.U.T.S*<br>
-<font size="4">*Super Cool Original and Unique Technology Systems*<br>  
-**Submission: March 6, 2026**<br>
+<font size="8">Exploration Device Project:</font><br>
+<font size="7">CropSCOUT </font><br>
+<font size="6">**Team 202** </font><br>
+<font size="5">*S.C.O.U.T.S* </font><br>
+<font size="4">*Super Cool Original and Unique Technology Systems* </font><br>  
+**Submission: May 4, 2026**<br>
 Spring - 2026<br>
 <font size="4">Arizona State University<br>
 **EGR 314**<br>
