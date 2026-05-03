@@ -10,12 +10,14 @@ title: Showcase
 
 ## Showcase Video Demo
 
-<iframe
-  width="800"
-  height="450"
-  src="https://www.youtube.com/embed/YolZg2Wo9-o"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
+<p align="center">
+  <iframe
+    width="315"
+    height="560"
+    src="https://www.youtube.com/embed/YolZg2Wo9-o"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</p>
 
 **Showcase demo narrated by Jacob Alger & Asadbek Ruziev**
