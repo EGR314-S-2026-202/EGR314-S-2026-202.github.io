@@ -29,6 +29,17 @@ The CropSCOUT's final assembly incorporated 5 out of 7 working subsystems, leavi
 ## Figure 1: Final Project Picture
 ![Final Project Picture](FPP_Welcome.jpg)
 
+
+## Video 1: Full Showcase Video Demo
+
+<iframe
+  width="800"
+  height="450"
+  src="https://youtu.be/CgNYh9vksoY"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+
 ## Team Members Datasheet links
 
 | **Team Member**        |**Ind Datasheet Links** |
