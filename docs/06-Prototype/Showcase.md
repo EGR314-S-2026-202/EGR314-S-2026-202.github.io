@@ -10,10 +10,10 @@ title: Showcase
 
 ## Showcase Video Demo
 
-<iframe 
-  width="800" 
+<iframe
+  width="800"
   height="450"
-  src="https://youtube.com/shorts/YolZg2Wo9-o?feature=share
+  src="https://www.youtube.com/embed/YolZg2Wo9-o"
   frameborder="0"
   allowfullscreen>
 </iframe>
