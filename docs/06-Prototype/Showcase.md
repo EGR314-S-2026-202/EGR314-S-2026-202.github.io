@@ -12,7 +12,7 @@ title: Showcase
 
 <p align="center">
   <iframe
-    width="315"
+    width="400"
     height="560"
     src="https://www.youtube.com/embed/YolZg2Wo9-o"
     frameborder="0"
