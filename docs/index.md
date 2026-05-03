@@ -31,14 +31,7 @@ The CropSCOUT's final assembly incorporated 5 out of 7 working subsystems, leavi
 
 
 ## Video 1: Full Showcase Video Demo
-
-<iframe
-  width="800"
-  height="450"
-  src="https://youtu.be/CgNYh9vksoY"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CgNYh9vksoY?si=5lFRXKqbXAz6XXHL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Team Members Datasheet links
 
