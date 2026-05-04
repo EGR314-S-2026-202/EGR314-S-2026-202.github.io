@@ -8,7 +8,7 @@ title: Showcase
 >The pdf of the Poster can be dowloaded [*here*](Poster.pdf).
 
 ## Final Project Picture
-![Final Project Picture](docs/FPP_Welcome.jpg)
+![Final Project Picture](FPP_Welcome.jpg)
 
 ## Showcase Video Demo
 
