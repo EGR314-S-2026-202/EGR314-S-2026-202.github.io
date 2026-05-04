@@ -23,4 +23,3 @@ title: Resources
 
 1. We would try to integrate several PCBs in the rover into 1 single PCB which would be helpful for more robust and smooth work. We would also try to have HMI integrated into 1 PCB that would include the MQTT.
 2. We would try to have pressure and accelerometer sensor working and since we were not able to integrate into our subsystem, having this would be amazing to meet all of our project plans, requirements.
-3. We would make sure that the team would use the same footprint for the 8-pin ribbon connectors. This would allow us to have less extra wires and spend less time on connecting board together.
