@@ -27,7 +27,7 @@ S.C.O.U.T.S (Super Cool Original and Unique Technology Systems) is a group of en
 The CropSCOUT's final assembly incorporated 5 out of 7 working subsystems, leaving out the accelerometer and metal detection systems. The CropSCOUT is powered using a 12V battery 
 
 ## Figure 1: Final Project Picture
-![Final Project Picture](FPP_Welcome.jpg)
+![Final Project Picture](08-Resources/FPP_Welcome.jpg)
 
 
 ## Video 1: Full Showcase Video Demo
