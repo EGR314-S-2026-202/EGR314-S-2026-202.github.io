@@ -12,6 +12,8 @@ title: Resources
 ### 3D Printed Models
 
 - [CropSCOUT Controller](../08-Resources/EGR314-Controller-Print.zip)
-- [CropSCOUT Body]()
+- [CropSCOUT Body](RoverBase.zip)
 - [CropSCOUT Wheels]()
 - [CropSCOUT Arm]()
+- [CropSCOUT Wheels and Temp/Humidity PCB Tower](PCB-Tower_T&H_W_Tower_CGE.SLDPRT)
+- [CropSCOUT Full Assembly](CropScout%20ASMB_2023.zip)
