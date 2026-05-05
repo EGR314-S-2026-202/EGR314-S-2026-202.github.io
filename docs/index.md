@@ -19,10 +19,10 @@ Dr. Nichols<br>
 </center>
 
 ## Team Introduction
-S.C.O.U.T.S (Super Cool Original and Unique Technology Systems) is a group of engineering students who share a goal of designing a reliable and easy-to-use exploration rover tasked to sense surroundings for agricultural use. Each member supports a unique aspect of the rover model in which allows for wireless controlling and relaying various sensing data. The data projects the surrounding soil temperature, humidity, and pressure, as well as being equipped with a tilt sensor and metal detector. Through communication and creativity, we strive to develop a dependable exploration device that enables the user to observe and interact with challenging environments safely. 
+S.C.O.U.T.S (Super Cool Original and Unique Technology Systems) is a group of engineering students who share a goal of designing a reliable and easy-to-use exploration rover tasked to sense surroundings for agricultural use. Each member supports a unique aspect of the rover model, enabling wireless control and the relay of various sensing data. The data projects the surrounding soil temperature, humidity, and pressure, and is equipped with a tilt sensor and a metal detector. Through communication and creativity, we strive to develop a reliable exploration device that enables users to observe and interact safely with challenging environments. 
 
 ## Project Summary
-We constructed CropSCOUT, a land exploration rover designed to survey large or dangerous regions. The CropSCOUT is equipped with a 4-wheel drive, a controllable front arm, temperature, humidity, metal, and accelerometer sensors. The CropSCOUT is also accompanied by a controller that features a directional pad, an OLED screen, and the ability to communicate wirelessly with the rover via MQTT. The CropSCOUT is powered by a 12V battery attached to the arm and shared among all sections of the rover. The CropSCOUT aims to assist in the treatment and mapping of areas that may be dangerous or taxing for a person to survey manually. We spent the semester each building modular subsystems to create a prototype for display at the Innovation Showcase. The CropSCOUT's final assembly incorporated 5 of 7 working subsystems, omitting the accelerometer and metal detection systems. You can view the final prototype in **Figure 1** and **Video 1**, as well as on this website, to see our team's engineering process for creating this project. You can also view an individual level by using the links to the subsystem datasheets below.
+We constructed CropSCOUT, a land exploration rover designed to survey large or dangerous regions. The CropSCOUT is equipped with a 4-wheel drive, a controllable front arm, temperature, humidity, metal, and accelerometer sensors. The CropSCOUT is also accompanied by a controller that features a directional pad, an OLED screen, and the ability to communicate wirelessly with the rover via MQTT. The CropSCOUT is powered by a 12V battery attached to the arm and shared among all sections of the rover. The CropSCOUT aims to assist in treating and mapping areas that may be dangerous or taxing for a person to survey manually. We spent the semester each building modular subsystems to create a prototype for display at the Innovation Showcase. The CropSCOUT's final assembly incorporated 5 of 7 working subsystems, omitting the accelerometer and metal-detection subsystems. You can view the final prototype in **Figure 1** and **Video 1**, as well as on this website, to see our team's engineering process for creating this project. You can also view an individual level by using the links to the subsystem datasheets below.
 
 ## Figure 1: Final Project Picture
 ![Final Project Picture](08-Resources/FPP_Welcome.jpg)
@@ -45,7 +45,7 @@ We constructed CropSCOUT, a land exploration rover designed to survey large or d
 
 
 ## Page Index
-The links below provide a mobile browser friendly method of navigating the CropSCOUT data sheet.
+The links below provide a mobile-friendly method for navigating the CropSCOUT data sheet.
 
 | **Page Links**        |
 | ---------------------- | 
