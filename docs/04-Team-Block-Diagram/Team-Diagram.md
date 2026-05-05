@@ -81,6 +81,6 @@ An example of a valid message would be AZthTV:F:75.256;TT:S:F;YB
 
 3. The team experienced issues with reliably passing the broadcast message. A manual workaround was put in place to bypass the broadcast.
 
-4. 
+4. The arm subsystem sends position in steps, instead of degrees as originally planned.
 
 5. 
