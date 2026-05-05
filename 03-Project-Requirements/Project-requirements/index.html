@@ -851,7 +851,7 @@
 <td>TR-08</td>
 <td>Rover will protect probes from being destroyed using pressure sensing.</td>
 <td>At any pressure, the arm stops and returns home</td>
-<td>At a specified pressure arm returns home and sends an error message</td>
+<td>At a specified pressure, the arm returns home and sends an error message</td>
 <td>Sensor / Controller</td>
 <td><strong>No</strong></td>
 </tr>
@@ -932,7 +932,7 @@
 </li>
 <li>
 <p><strong>TR-03:</strong><br>
-  Measuring soil or environmental humidity allows the rover to provide useful information related to crop and soil conditions. At a minimum, the rover should be able to distinguish between wet and dry conditions, which can help identify irrigation issues. Higher resolution measurements allow for more detailed analysis and better decision-making. This requirement supports CropScout’s role as a monitoring and inspection tool.</p>
+  Measuring soil or environmental humidity enables the rover to provide useful information about crop and soil conditions. At a minimum, the rover should be able to distinguish between wet and dry conditions, which can help identify irrigation issues. Higher-resolution measurements enable more detailed analysis and better decision-making. This requirement supports CropScout’s role as a monitoring and inspection tool.</p>
 </li>
 <li>
 <p><strong>TR-04:</strong><br>
@@ -940,15 +940,15 @@
 </li>
 <li>
 <p><strong>TR-05:</strong><br>
-  Ambient temperature is an important environmental parameter that can affect crop health and growing conditions. This requirement ensures the rover can measure temperature with reasonable accuracy instead of relying on estimates. Improving accuracy in the target measurement allows for more reliable data collection. Temperature data also complements other sensor readings to provide a more complete picture of field conditions.</p>
+  Ambient temperature is an important environmental parameter that can affect crop health and growing conditions. This requirement ensures the rover can measure temperature with reasonable accuracy instead of relying on estimates. Improving the accuracy of target measurements enables more reliable data collection. Temperature data also complements other sensor readings to provide a more complete picture of field conditions.</p>
 </li>
 <li>
 <p><strong>TR-06:</strong><br>
-  CropScout must be able to send sensor data to the controller while also receiving control commands from the user. This two-way communication allows the user to both monitor the environment and actively control the rover’s behavior. Low latency ensures that the rover responds quickly to user inputs and that sensor data appears in real time. This requirement is critical for smooth operation and user confidence in the system.</p>
+  CropScout must be able to send sensor data to the controller while also receiving control commands from the user. This two-way communication allows the user to both monitor the environment and actively control the rover’s behavior. Low latency ensures the rover responds quickly to user inputs and that sensor data is displayed in real time. This requirement is critical for smooth operation and user confidence in the system.</p>
 </li>
 <li>
 <p><strong>TR-07:</strong><br>
-  Because CropScout is made up of multiple modular subsystems, all boards must communicate using the same communication lines. At a minimum, one-way messaging allows basic data transfer between subsystems. Two-way UART communication enables more advanced interactions, such as acknowledgments and status reporting. This requirement ensures the system functions as a unified device rather than a collection of independent boards.</p>
+  Because CropScout is composed of multiple modular subsystems, all boards must communicate over the same communication lines. At a minimum, one-way messaging allows basic data transfer between subsystems. Two-way UART communication enables more advanced interactions, such as acknowledgments and status reporting. This requirement ensures the system functions as a unified device rather than a collection of independent boards.</p>
 </li>
 <li>
 <p><strong>TR-08:</strong><br>
