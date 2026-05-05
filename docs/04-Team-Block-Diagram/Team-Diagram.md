@@ -4,7 +4,7 @@ title: Block Diagram, Process Diagram, and Message Structure
 
 ## Team Block Diagram
 
-Below is the Block Diagram we created as a team. We followed the Daisy Chain format, using 8-pin ribbon connectors, to allow communication between all subsystems via UART and digital signals. There are two sections in our diagram: the rover section (on the right) and the controller section (on the left). It made sense to split the block diagrams this way, as the rover and the controller will be two separate modules that comprise the entire system. Both sections include Daisy Chain communications and will connect wirelessly using an MQTT server from Wi-Fi connection.
+Below is the Block Diagram we created as a team. We used the Daisy Chain format with 8-pin ribbon connectors to enable communication between all subsystems via UART and digital signals. There are two sections in our diagram: the rover section (on the right) and the controller section (on the left). It made sense to split the block diagrams this way, as the rover and the controller will be two separate modules that comprise the entire system. Both sections include Daisy Chain communication and will connect wirelessly via an MQTT server over Wi-Fi.
 
 ![Team Block Diagram](TBDV3.png)
 
@@ -12,7 +12,7 @@ Below is the Block Diagram we created as a team. We followed the Daisy Chain for
 
 ## Communication Process Diagram
 
-Below is the Communication Process Diagram, which details a couple of use cases for our system to help develop an understanding of how the user will interact with the device and how messages will be passed between subsystems. You can see that the user asks the controller to control the front arm and change the unit of the temperature reading. This message is passed and acted upon by the system, going from system to system in the daisy chain. Then there is the loop section, which details what the rover is constantly doing independently of the user, such as using the pressure sensor to detect collisions with the arm.
+Below is the Communication Process Diagram, which details a couple of use cases for our system to help develop an understanding of how the user will interact with the device and how messages will be passed between subsystems. You can see that the user asks the controller to control the front arm and to change the temperature unit. This message is passed and acted upon by the system, going from system to system in the daisy chain. Then there is the loop section, which details what the rover is constantly doing independently of the user, such as using the pressure sensor to detect collisions with the arm.
 
 ![Communication Process Diagram](TSDV1.drawio.png)
 
@@ -32,7 +32,7 @@ Below is a table of the types of messages that will be sent between our subsyste
 | 7      | Humidity       | Messages regarding the humidity sensor.                                                      |
 | 8      | Metal          | Messages regarding the metal detection subsystem.                                            |
 
-Below is a table detailing our team's full Application Programming Interface (API), showcasing every message with relevant information for each. Each message falls into one of the message types above to indicate its type. To see more on the API, please view each teammate's individual datasheet and view the "API" page for a comprehensive description.
+Below is a table detailing our team's full Application Programming Interface (API), showcasing every message with relevant information for each. Each message falls into one of the message types above. To learn more about the API, please review each teammate's individual datasheet and the "API" page for a comprehensive description.
 
 | Source        | Destination | Message Type | Message Name            | Data Type        | Message Data                  | Notes                                      |
 |---------------|-------------|--------------|-------------------------|------------------|-------------------------------|--------------------------------------------|
@@ -56,7 +56,7 @@ Below is a table detailing our team's full Application Programming Interface (AP
 | Arm           | HMI         | 5            | Arm Error               | Integer (8-bit)  | 0–3                           | Error code            |
 
 ## Communication Sequence Functionality
-The purpose of the communication diagram is to depict the interaction between the subsystems and the user's input. It satisfies the user's needs by handling the message input and passing it along the connection line. When a message reaches its designated subsystem, the subsystem interacts with the original input message and, if needed, outputs a response message, which is then sent down the chain and received by its targeted subsystem to provide output to the user.
+The purpose of the communication diagram is to depict the interaction between the subsystems and the user's input. It satisfies the user's needs by handling the message input and passing it along the connection line. When a message reaches its designated subsystem, the subsystem interacts with the original input message and, if needed, outputs a response message, which is then sent down the chain to its targeted subsystem for output to the user.
 
 An example of the communication structure follows this structure:
 1) If the user presses a button on the HMI subsystem to raise the arm 
@@ -79,7 +79,7 @@ An example of a valid message would be AZthTV:F:75.256;TT:S:F;YB
 
 2. We changed the Start Broadcast to update the source in order to track where it was going. Originally, it would stay 'h' (from the HMI) the whole time, but now the HMI subsystem expects 't' to indicate that the message indeed reached the temperature/humidity subsystem.
 
-3. The team experienced issues with reliably passing the broadcast message. A manual workaround was put in place to bypass the broadcast.
+3. The team experienced issues with reliably passing the broadcast message. A manual workaround was implemented to bypass the broadcast.
 
 4. The arm subsystem sends position in steps, instead of degrees as originally planned.
 
