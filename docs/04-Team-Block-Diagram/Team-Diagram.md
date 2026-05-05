@@ -75,9 +75,9 @@ An example of a valid message would be AZthTV:F:75.256;TT:S:F;YB
 
 ## 5 Changes Post Software Proposal
 
-1. 
+1. We switched to MQTT instead of Bluetooth, so the Communication and Wheels subsystems had to both connect to the Wi-Fi, then the server, then the Comm system sent a handshake, which, once responded to by the Wheels, allowed the communication to start happening.
 
-2. 
+2. We changed the Start Broadcast to update the source in order to track where it was going. Originally, it would stay 'h' (from the HMI) the whole time, but now the HMI subsystem expects 't' to indicate that the message indeed reached the temperature/humidity subsystem.
 
 3. 
 
