@@ -11,7 +11,7 @@ tags:
 ![Team picture](Team_photo.jpg)
 >Team picture: From left to right: Caleb Yuen, Cristopher Gutierrez, Jacob Alger, Asadbek Ruziev, Aaron Kiem, Isaiah Johnston 
 
-To create this Charter, the team sat down and discussed each individual's top 3 goals and qualities they want to achieve and demonstrate. Characterizing the Charter in this group setting ensured that we all agreed on the Charter's content and the team's goals moving forward.
+To create this Charter, the team sat down and discussed each individual's top 3 goals and qualities they want to achieve and demonstrate. Characterizing the Charter in this group setting ensured we all agreed on its content and the team's goals moving forward.
 
 ## Product Mission Statement
 
