@@ -83,4 +83,4 @@ An example of a valid message would be AZthTV:F:75.256;TT:S:F;YB
 
 4. The arm subsystem sends position in steps, instead of degrees as originally planned.
 
-5. 
+5. All sensors were originally intended to have editable set points. This was never implemented.
