@@ -79,7 +79,7 @@ An example of a valid message would be AZthTV:F:75.256;TT:S:F;YB
 
 2. We changed the Start Broadcast to update the source in order to track where it was going. Originally, it would stay 'h' (from the HMI) the whole time, but now the HMI subsystem expects 't' to indicate that the message indeed reached the temperature/humidity subsystem.
 
-3. 
+3. The team experienced issues with reliably passing the broadcast message. A manual workaround was put in place to bypass the broadcast.
 
 4. 
 
