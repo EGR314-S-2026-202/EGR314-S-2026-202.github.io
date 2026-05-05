@@ -13,7 +13,7 @@ title: Project Requirements
 | TR-05 | Rover shall measure the ambient temperature | 土 5 ℃ | 土 2 ℃ | Sensor | **No** <br> <br> Be able to convert C to F |
 | TR-06 | Rover shall send sensor data to the controller screen and get control information back | Inputs make the rover move/get sensor data | Low Latency / Clean data and graphs | Communication | **No** <br> <br> Store data in a .csv convertible data bank |
 | TR-07 | All individual boards talk to each other using the same communication lines | One-way messages | Two-way UART messaging | HMI | **No** |
-| TR-08 | Rover will protect probes from being destroyed using pressure sensing. | At any pressure, the arm stops and returns home | At a specified pressure arm returns home and sends an error message | Sensor / Controller | **No** |
+| TR-08 | Rover will protect probes from being destroyed using pressure sensing. | At any pressure, the arm stops and returns home | At a specified pressure, the arm returns home and sends an error message | Sensor / Controller | **No** |
 | TR-09 | Subsystems will send error reports to HMI | Alive signals | Specific issues with possible solutions given | Communication | **No** |
 | TR-10 | Rover shall initialize all subsystems and indicate when the system is ready for operation | Power-on and basic communication | All subsystems report ready to HMI within 10 seconds | System integration / HMI | **No** |
 
@@ -40,19 +40,19 @@ title: Project Requirements
   CropScout is intended to operate in outdoor field environments where access to wall power is not available. Because of this, the system must run entirely on battery power for a reasonable amount of time. Establishing a minimum runtime ensures the rover can complete basic tasks, while a longer target runtime improves usability. This requirement also places constraints on subsystem power consumption and overall system design.
 
 - **TR-03:**  
-  Measuring soil or environmental humidity allows the rover to provide useful information related to crop and soil conditions. At a minimum, the rover should be able to distinguish between wet and dry conditions, which can help identify irrigation issues. Higher resolution measurements allow for more detailed analysis and better decision-making. This requirement supports CropScout’s role as a monitoring and inspection tool.
+  Measuring soil or environmental humidity enables the rover to provide useful information about crop and soil conditions. At a minimum, the rover should be able to distinguish between wet and dry conditions, which can help identify irrigation issues. Higher-resolution measurements enable more detailed analysis and better decision-making. This requirement supports CropScout’s role as a monitoring and inspection tool.
 
 - **TR-04:**  
   A human-machine interface is required so the user can control the rover and interact with its data. At a minimum, physical buttons allow basic control of movement and system functions. Adding a display improves usability by providing feedback such as sensor readings, system status, and error messages. This requirement ensures the rover can be operated intuitively without relying on autonomous behavior.
 
 - **TR-05:**  
-  Ambient temperature is an important environmental parameter that can affect crop health and growing conditions. This requirement ensures the rover can measure temperature with reasonable accuracy instead of relying on estimates. Improving accuracy in the target measurement allows for more reliable data collection. Temperature data also complements other sensor readings to provide a more complete picture of field conditions.
+  Ambient temperature is an important environmental parameter that can affect crop health and growing conditions. This requirement ensures the rover can measure temperature with reasonable accuracy instead of relying on estimates. Improving the accuracy of target measurements enables more reliable data collection. Temperature data also complements other sensor readings to provide a more complete picture of field conditions.
 
 - **TR-06:**  
-  CropScout must be able to send sensor data to the controller while also receiving control commands from the user. This two-way communication allows the user to both monitor the environment and actively control the rover’s behavior. Low latency ensures that the rover responds quickly to user inputs and that sensor data appears in real time. This requirement is critical for smooth operation and user confidence in the system.
+  CropScout must be able to send sensor data to the controller while also receiving control commands from the user. This two-way communication allows the user to both monitor the environment and actively control the rover’s behavior. Low latency ensures the rover responds quickly to user inputs and that sensor data is displayed in real time. This requirement is critical for smooth operation and user confidence in the system.
 
 - **TR-07:**  
-  Because CropScout is made up of multiple modular subsystems, all boards must communicate using the same communication lines. At a minimum, one-way messaging allows basic data transfer between subsystems. Two-way UART communication enables more advanced interactions, such as acknowledgments and status reporting. This requirement ensures the system functions as a unified device rather than a collection of independent boards.
+  Because CropScout is composed of multiple modular subsystems, all boards must communicate over the same communication lines. At a minimum, one-way messaging allows basic data transfer between subsystems. Two-way UART communication enables more advanced interactions, such as acknowledgments and status reporting. This requirement ensures the system functions as a unified device rather than a collection of independent boards.
 
 - **TR-08:**  
   The front arm subsystem interacts directly with the environment, which introduces the risk of damaging probes or mechanical components. This requirement ensures that the system can detect excessive pressure and respond safely. When unsafe conditions are detected, the arm must stop and return to a safe position. Error reporting helps inform the user of what occurred and prevents repeated damage.
