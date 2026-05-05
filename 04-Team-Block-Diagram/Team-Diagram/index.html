@@ -1091,8 +1091,12 @@
 - This is a message from the Temperature subsystem to the HMI subsystem, which calls for the temperature value as a float type and the temperature unit as a string with its corresponding values per variable.</p>
 <h2 id="5-changes-post-software-proposal">5 Changes Post Software Proposal</h2>
 <ol>
-<li></li>
-<li></li>
+<li>
+<p>We switched to MQTT instead of Bluetooth, so the Communication and Wheels subsystems had to both connect to the Wi-Fi, then the server, then the Comm system sent a handshake, which, once responded to by the Wheels, allowed the communication to start happening.</p>
+</li>
+<li>
+<p>We changed the Start Broadcast to update the source in order to track where it was going. Originally, it would stay 'h' (from the HMI) the whole time, but now the HMI subsystem expects 't' to indicate that the message indeed reached the temperature/humidity subsystem.</p>
+</li>
 <li></li>
 <li></li>
 <li></li>
