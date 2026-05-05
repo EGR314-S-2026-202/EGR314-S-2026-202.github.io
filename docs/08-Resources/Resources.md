@@ -17,3 +17,8 @@ title: Resources
 - [CropSCOUT Arm]()
 - [CropSCOUT Wheels and Temp/Humidity PCB Tower](PCB-Tower_T&H_W_Tower_CGE.SLDPRT)
 - [CropSCOUT Full Assembly](CropScout%20ASMB_2023.zip)
+- [Humidity Isolation Box](PCBholderbase.SLDPRT)
+- [Humidity Isolation Box Lid](PCBLid.SLDPRT)
+- [Temp Probe End Effector](endeff.SLDPRT)
+- [PCB Retention Tab Large](bigcornerhold.SLDPRT)
+- [PCB Retention Tab Small](cornerholdsmall.SLDPRT)
