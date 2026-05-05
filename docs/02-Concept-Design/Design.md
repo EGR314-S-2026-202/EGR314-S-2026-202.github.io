@@ -4,7 +4,7 @@ title: Concept Generation and Design Ideation
 
 ## Goal
 
-The goal of our exploration device is to create a human-controlled, remote-operated ground robot designed for use in agricultural environments. The device allows an operator to move through fields from a distance while receiving real-time sensor feedback about the surrounding area. Instead of operating autonomously, the system keeps a person fully in control of all movement and actions, allowing the operator to make decisions based on live data and visual information. The device acts as an inspection and exploration tool that helps identify anomalies, obstacles, or irregular field conditions while demonstrating how embedded sensing, actuation, communication, and user interface subsystems work together in a practical application.
+The goal of our exploration device is to create a human-controlled, remotely operated ground robot for use in agricultural environments. The device allows an operator to move through fields remotely while receiving real-time sensor feedback about the surrounding area. Instead of operating autonomously, the system keeps a person fully in control of all movement and actions, allowing the operator to make decisions based on live data and visual information. The device serves as an inspection and exploration tool that helps identify anomalies, obstacles, and irregular field conditions, while demonstrating how embedded sensing, actuation, communication, and user interface subsystems work together in a practical application.
 
 ## Audience
 
@@ -12,7 +12,7 @@ The primary audience for this device is farmers and farm managers who need effic
 
 ## Exploration Device – 100 Ideas (Brainstorming)
 
-Below is our initial brainstorming spreadsheet that lists potential features, sensors, mobility options, and system concepts considered for our exploration device.
+Below is our initial brainstorming spreadsheet listing potential features, sensors, mobility options, and system concepts for our exploration device.
 
 ![Idea list part 1](images/ideas_part1.png)
 
@@ -26,7 +26,7 @@ Below is our initial brainstorming spreadsheet that lists potential features, se
 The listing below is of ideas sorted into 5 separate groups:
 ![sorted ideas list](images/sorted_ideas.png)
 
-The listing below is of the ideas in the groups ranked from most appealing/applicable to least appealing/applicable:
+The listing below is of the ideas in the groups, ranked from most appealing/applicable to least appealing/applicable:
 ![ranked ideas list](images/ranked_ideas.png)
 
 ## Product Concept Designs
@@ -40,7 +40,7 @@ Animated exploration rover concept by Aaron Kiem
 > Concept by Jacob Alger. View as a PDF [here](../02-Concept-Design/images/EGR314-Surveyor-Concept.pdf) or download SolidWorks CAD zip file [here](../02-Concept-Design/CAD-models/EGR314-Surveyor.zip)
 </b>
 
-The Surveyor meets the user's needs by being a controllable exploration device capable of measuring and interacting with its surroundings. It is equipped with a microphone, a temperature sensor, a metal detector for analyzing an area, and robotic arms for manipulating materials for retrieval or movement. It comes with a controller that can be used to move the rover, read the sensors, and run checks on the device's functionality.
+The Surveyor meets the user's needs by being a controllable exploration device capable of measuring and interacting with its surroundings. It is equipped with a microphone, a temperature sensor, a metal detector for analyzing an area, and robotic arms for manipulating materials for retrieval or movement. It comes with a controller that lets you move the rover, read the sensors, and run checks on the device's functionality.
 
 Functionality can be split into the following subsystems for our team to design:
 
@@ -52,7 +52,7 @@ Functionality can be split into the following subsystems for our team to design:
 - Controller (Human Machine Interface)
 - Communication Module (Two-way wireless communication)
 
-This device would be designed with our users' understandability in mind. It would have to come with a manual, but most of the controller functionality will be intuitive for moving/turning the rover and for using the arms or sensors. We would design the use to be as comfortable as possible, but this would most likely require several rounds of user testing and design iteration to achieve peak comfort for the user.
+This device would be designed with our users' understandability in mind. It would have to come with a manual, but most of the controller functionality will be intuitive for moving/turning the rover and for using the arms or sensors. We would design the use to be as comfortable as possible, but this would require several rounds of user testing and design iterations to achieve peak comfort.
 
 ### CropScout
 ![CropScout Concept](../02-Concept-Design/images/Cropscout_cropped.png)
@@ -87,7 +87,7 @@ CropScout is built to be intuitive and easy to use, featuring clear icons, remot
 > Concept by Isaiah Johnston. View as a SVG [here](../02-Concept-Design/images/AGdrone.svg)
 </b>
 
-The Field Defender is made of a tough reinforced polymer designed to monitor and defend fields from rodents and fires. The Defender is equipped with a rotating turret containing a fire extinguishing cannon and a .177 air-powered pellet gun. Terrain mapping is accomplished with 4 LiDAR cameras. The Defender has a retractable moisture sensor for routinely monitoring crop irrigation levels. Tank treads allow for zero-point turning and mobility through rough terrain. A camera and a thermal camera allow users to monitor activities day and night. The Defender can be piloted remotely using a PS2 controller and a display, or allow AI to run through user-defined checks, routes, and activities. The Defender is powered by a long-lasting rechargeable battery.
+The Field Defender is made of a tough reinforced polymer designed to monitor and defend fields from rodents and fires. The Defender is equipped with a rotating turret housing a fire-extinguishing cannon and a .177 air-powered pellet gun. Terrain mapping is accomplished with 4 LiDAR cameras. The Defender has a retractable moisture sensor for routinely monitoring crop irrigation levels. Tank treads allow for zero-point turning and mobility through rough terrain. A camera and a thermal camera allow users to monitor activities day and night. The Defender can be piloted remotely using a PS2 controller and a display, or it can run AI through user-defined checks, routes, and activities. The Defender is powered by a long-lasting rechargeable battery.
 
 These subsystems are arranged in the following manner:
 
@@ -104,4 +104,4 @@ These subsystems are arranged in the following manner:
 ### Selected Concept: CropScout
 ![Annotaed CropScout Concept](../02-Concept-Design/images/CD_update.png)
 
-We unanimously voted for the CropScout. There were many ideas across everyone’s concepts that we liked; however, we felt the CropScout was a well-rounded rover with conceivable ideas and helpful features that could make it a valuable tool for farmers. Adding the Surveyor’s remote-control feature would be a great addition to the CropScout concept. After further discussion, we refined the design by removing some of the original CropScout features and replacing them with an accelerometer, a pressure sensor, and a metal detector to improve its overall functionality and field performance. We discussed this over text by sharing our thoughts on all of the concepts that were presented. 
+We unanimously voted for the CropScout. There were many ideas across everyone’s concepts that we liked; however, we felt the CropScout was a well-rounded rover with conceivable ideas and helpful features that could make it a valuable tool for farmers. Adding the Surveyor’s remote-control feature would be a great addition to the CropScout concept. After further discussion, we refined the design by removing some of the original CropScout features and replacing them with an accelerometer, a pressure sensor, and a metal detector to improve its overall functionality and field performance. We discussed this over text, sharing our thoughts on all the concepts presented. 
